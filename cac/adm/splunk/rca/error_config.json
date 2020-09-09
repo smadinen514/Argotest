@@ -25,7 +25,7 @@
         "error_category": {
             "gitlab error": "Application Error: Gitlab",
             "unable to access 'https://gitlab.devtools.intel.com": "Application Error: Gitlab",
-            "gitLab is not responding": "Connectivity Error: Gitlab",
+            "gitlab is not responding": "Connectivity Error: Gitlab",
             
             "artifact error": "Connectivity Error: Artifactory",
             "artifactory": "Connectivity Error: Artifactory",
@@ -122,7 +122,7 @@
             "error 0004": "Compilation Error" ,
             "error 1001": "Compilation Error" ,
             "fsp build": "Compilation Error",
-            "bios Build": "Compilation Error",
+            "bios build": "Compilation Error",
             "error 7000": "Compilation Error",
             "makefile:93": "Compilation Error",
             "cmake error": "Compilation Error",
@@ -161,7 +161,7 @@
             "source list is empty": "Application Error: Klocwork",
             
             "couldn't find any revision to build": "Configuration Error",
-            "groovy.lang.MissingPropertyException": "Configuration Error",
+            "groovy.lang.missingpropertyexception": "Configuration Error",
             
             "httperror: 401 - no permission": "Application Error: BDBA",
             "httperror: 502 - invalid responses from another server/proxy.": "Connectivity Error: BDBA",

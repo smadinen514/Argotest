@@ -56,16 +56,16 @@
             "connectionerror": "Connectivity Error",
             "connectionrefusederror": "Connectivity Error",
             "failed: connection":"Connectivity Error",
-            "error: failed to push some refs to": "Connectivity Error" ,
             "sanity": "Connectivity Error",
             "500 internal server error": "Connectivity Error",
             "fetcher failure for url:": "Connectivity Error",
             "connection timed out": "Connectivity Error",
-            "failed to fetch": "Connectivity Error",
             
             "error cloning": "Connectivity Error: GIT",
             "git clone": "Connectivity Error: GIT",
             "cloning the git-repo": "Connectivity Error: GIT",
+            "error: failed to push some refs to": "Connectivity Error: GIT",
+            "failed to fetch": "Connectivity Error: GIT",
             
             "directory is not empty": "Filesystem Error",
             
@@ -135,6 +135,7 @@
             "gnumakefile:19": "Compilation Error",
             "gnumakefile:74": "Compilation Error",
             "makefile:1308": "Compilation Error",
+            "script returned exit code 255": "Compilation Error",
             
             "configuration error": "Application Error",
             "server error": "Application Error",

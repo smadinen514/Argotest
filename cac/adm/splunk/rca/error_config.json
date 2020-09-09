@@ -18,7 +18,8 @@
             "httperror",
             "urlerror",
             "conflict",
-            "stderr"
+            "stderr",
+            "cannot stat"
         ],
         
         "error_category": {

@@ -32,7 +32,7 @@
             "expectation failed": "Application Error: Artifactory",
             
             "keyerror:": "Key Error",
-            "priKey size is not same as pubkey": "Key Error",
+            "prikey size is not same as pubkey": "Key Error",
             
             "nameerror:": "Name Error",
             

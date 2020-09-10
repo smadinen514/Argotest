@@ -25,7 +25,7 @@
         
         "error_category": {
             "gitlab error": "Application Error: Gitlab",
-            "unable to access 'https://gitlab.devtools.intel.com": "Application Error: Gitlab",
+            "unable to access 'https://gitlab.devtools.intel.com": "Connectivity Error: Gitlab",
             "gitlab is not responding": "Connectivity Error: Gitlab",
             
             "artifact error": "Connectivity Error: Artifactory",
@@ -66,6 +66,7 @@
             "cloning the git-repo": "Connectivity Error: GIT",
             "error: failed to push some refs to": "Connectivity Error: GIT",
             "failed to fetch": "Connectivity Error: GIT",
+            "error fetching remote": "Connectivity Error: GIT",
             
             "directory is not empty": "Filesystem Error",
             
@@ -228,7 +229,8 @@
             "error: timeout after",
             "error: error: no workspace found!",
             "running on ",
-            "error_lib.","_error.c",
+            "error_lib.",
+            "error.c",
             "tx_thread_stack_error_handler.c",
             "tx_thread_stack_error_notify.c",
             "error_id.h",
@@ -276,7 +278,9 @@
             "error.o",
             "error-inj.o",
             "error.mod.o",
-            "error.ko"
+            "error.ko",
+            "strerror_r",
+            "currror.c.o"
         ]
     }
 }

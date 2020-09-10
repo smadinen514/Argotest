@@ -165,7 +165,7 @@
             "urlerror: [errno 104] connection reset by peer": "Connectivity Error: BDBA",
             "results is not yet ready": "Application Error: BDBA",
             "scanning is failed": "Application Error: BDBA",
-            "httprror: 503 - the server cannot process the request due to a high load": "Application Error: BDBA",
+            "httperror: 503 - the server cannot process the request due to a high load": "Application Error: BDBA",
             "[errno 111] connection refused": "Application Error: BDBA",
             
             "bdstool: scan failed": "Application Error: Protex",

@@ -330,7 +330,7 @@
             "error1reporting",
             "errorlog",
             "error-perl",
-            "PrintErrorLevel",
+            "printerrorlevel",
             "errors.py"
         ]
     }

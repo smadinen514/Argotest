@@ -111,7 +111,7 @@
             "core-image-ese-dev-1.0-r0 do_image_wic": "Compilation Error",
             "following arguments are required": "Compilation Error",
             "failed to load image": "Compilation Error" ,
-            "not recognized as an internal or external command,": "Compilation Error" ,
+            "not recognized as an internal or external command": "Compilation Error" ,
             "failed to build module": "Compilation Error" ,
             "failed with exit code '1'": "Compilation Error" ,
             "failed with exit code 1": "Compilation Error" ,
@@ -130,6 +130,8 @@
             "no such file or directory": "Compilation Error",
             "makefile:": "Compilation Error",
             "prikey size is not same as pubkey": "Compilation Error",
+            "attestation server read": "Compilation Error",
+            "failed in branch build - bypass": "Compilation Error",
             
             "test result   :  -1": "Test Error",
             
@@ -198,7 +200,6 @@
             "pluginuixmlwriter.obj rootuixmlwriter.obj",
             ">if 0 neq 0 goto eof",
             "warning:root:[abi_warn_00000010]",
-            "failed in branch",
             "cache entry deserialization failed",
             "enoerror",
             "eusererrorcode",
@@ -331,7 +332,8 @@
             "errorlog",
             "error-perl",
             "printerrorlevel",
-            "errors.py"
+            "errors.py",
+            "error: info is different"
         ]
     }
 }

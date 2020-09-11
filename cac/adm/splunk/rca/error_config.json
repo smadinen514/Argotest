@@ -20,18 +20,37 @@
             "conflict",
             "stderr",
             "cannot stat",
-            "test result"
+            "test result",
+            "connectionrefusederror",
+            "abi_err",
+            "java.io.ioexception"
         ],
         
         "error_category": {
-            "gitlab error": "Application Error: Gitlab",
-            "unable to access 'https://gitlab.devtools.intel.com": "Connectivity Error: Gitlab",
-            "gitlab is not responding": "Connectivity Error: Gitlab",
-            
+            "gitlab error": "Application Error: Git",
+            "could not read from remote repository":"Application error: Git",
+            "unable to access 'https://gitlab.devtools.intel.com": "Connectivity Error: Git",
+            "gitlab is not responding": "Connectivity Error: Git",
+            "authentication failed for":"Connectivity Error: Git",
+            "remote: unauthorized":"Configuration Error: Git",
+            "error cloning": "Connectivity Error: Git",
+            "git clone": "Connectivity Error: Git",
+            "cloning the git-repo": "Connectivity Error: Git",
+            "error: failed to push some refs to": "Connectivity Error: Git",
+            "failed to fetch": "Connectivity Error: Git",
+            "error fetching remote": "Connectivity Error: Git",
+            "an optional update for edkrepo is available and can be installed using: edkrepo update":"Configuration Error: Git",
+
             "artifact error": "Connectivity Error: Artifactory",
-            "artifactory": "Connectivity Error: Artifactory",
             "uploading artifacts": "Connectivity Error: Artifactory",
             "expectation failed": "Application Error: Artifactory",
+            "401 response message: artifactory":"Connectivity Error: Artifactory",
+            "artifactory returned the following errors":"Application Error: Artifactory",
+            "service temporarily unavailable":"Application Error: Artifactory",
+            "failed to deploy file. status code: 503":"Application Error: Artifactory",
+            "http/1.1: connection reset by peer: socket write error":"Application Error: Artifactory",
+            "http/1.1: read timed out":"Connectivity Error: Artifactory",
+            "http/1.1. received status code 503 and message: service temporarily Unavailable":"Connectivity Error: Artifactory",
             
             "keyerror:": "Key Error",
             
@@ -61,21 +80,25 @@
             "fetcher failure for url:": "Connectivity Error",
             "connection timed out": "Connectivity Error",
             
-            "error cloning": "Connectivity Error: GIT",
-            "git clone": "Connectivity Error: GIT",
-            "cloning the git-repo": "Connectivity Error: GIT",
-            "error: failed to push some refs to": "Connectivity Error: GIT",
-            "failed to fetch": "Connectivity Error: GIT",
-            "error fetching remote": "Connectivity Error: GIT",
-            
             "directory is not empty": "Filesystem Error",
-            
-            "nmake : fatal error" : "Nmake Error",
             
             "cannot load":"Load Error",
             
             "mandatory update for edkrepo": "System Error",
-            
+
+            "nmake : fatal error" : "Compilation Error",   
+            "link : fatal error":"Compilation Error",
+            "error while encapsulate fd image":"Compilation Error",
+            "error while add some named ffs file into the fd image file":"Compilation Error",
+            "must supply an action name and an arg list":"Compilation Error",
+            "class has no constructors":"Compilation Error",
+            "identifier not found":"Compilation Error",
+            "undeclared identifier":"Compilation Error",
+            "invalid target type for dynamic_cast":"Compilation Error",
+            "no certificate supplied in operation":"Compilation Error",
+            "certificate verify failed":"Compilation Error",
+            "signtool error: file not found":"Compilation Error",
+            "abi.error_handling.abi_exception.abiexception":"Compilation Error",
             "package_write_rpm": "Compilation Error",
             "requires: openvino": "Compilation Error",
             "drivers/spi/spi-dw.h" :  "Compilation Error",
@@ -151,30 +174,39 @@
             "no such property": "Missing Object Error",
             "does not exist":"Missing Object Error",
             
+            "no connection could be made because the target machine actively refused it":"Connectivity Error: Klocwork",
+            "cannot locate kw tools on system":"Configuration Error: klocwork",
+            "cannot locate kwdeployexe on system":"Configuration Error: Klocwork",
+            "unable to get klocwork server version":"Connectivity Error: Klocwork",
             "kwadmin: connection to": "Connectivity Error: Klocwork",
             "kwadmin: license check failed": "Application Error: Klocwork",
             "kwadmin: cannot load project": "Application Error: Klocwork",
             "kwadmin: incompatible server version": "Application Error: Klocwork",
             "error occurred during build: tables directory": "Application Error: Klocwork",
             "source list is empty": "Application Error: Klocwork",
+            "kwadmin: authentication failed":"Configuration Error: Klocwork",
             
             "couldn't find any revision to build": "Configuration Error",
-            "groovy.lang.missingpropertyexception": "Configuration Error",
+
+            "groovy.lang.missingpropertyexception": "Configuration Error: Jenkins",
+            "errorsexception: startup failed":"Configuration Error: Jenkins",
             
             "httperror: 401 - no permission": "Application Error: BDBA",
             "httperror: 502 - invalid responses from another server/proxy.": "Connectivity Error: BDBA",
             "httperror: 404 - nothing matches the given uri": "Application Error: BDBA",
             "urlerror: [errno 104] connection reset by peer": "Connectivity Error: BDBA",
+            "binary scan failed to complete":"Connectivity Error: BDBA",
             "results is not yet ready": "Application Error: BDBA",
             "scanning is failed": "Application Error: BDBA",
             "httperror: 503 - the server cannot process the request due to a high load": "Application Error: BDBA",
-            "[errno 111] connection refused": "Application Error: BDBA",
-            
+            "[errno 111] connection refused": "Connectivity Error: BDBA",
+            "response got: unauthorized":"Connectivity Error: BDBA",
+            "urlerror: [errno 10054] an existing connection was forcibly closed":"Connectivity Error: BDBA",
+
             "bdstool: scan failed": "Application Error: Protex",
+	    "bdstool: login failed for":"Connectivity Error: Protex",
             "bom list error": "Application Error: Protex",
-            
             "Internal error (reference:": "Application Error: Snyk"
-            
         },
         
         "patterns": [

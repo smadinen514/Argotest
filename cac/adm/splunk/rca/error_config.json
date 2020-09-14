@@ -171,7 +171,9 @@
             "[errno 111] connection refused": "Application Error: BDBA",
             
             "bdstool: scan failed": "Application Error: Protex",
-            "bom list error": "Application Error: Protex"
+            "bom list error": "Application Error: Protex",
+            
+            "Internal error (reference:": "Application Error: Snyk"
             
         },
         

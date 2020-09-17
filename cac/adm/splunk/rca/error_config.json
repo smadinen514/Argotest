@@ -381,7 +381,19 @@
             "stderr: remote:",
             "git did not send all necessary objects",
             "jsondecodeerror",
-            "error: index-pack"
+            "error: index-pack",
+            "the remote end hung up unexpectedly",
+            "stderr: error: rpc failed",
+            "fatal: early eof",
+            "fatal: index-pack failed",
+            "fatal: expected flush after ref listing",
+            "fatal: protocol error: bad pack header",
+            "unable to get credential",
+            "pathspec '0' did not match",
+            "running setup.py",
+            "config_dm_eth",
+            "failed to build",
+            "failed building"
         ]
     }
 }

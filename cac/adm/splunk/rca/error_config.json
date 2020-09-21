@@ -51,6 +51,7 @@
             "http/1.1: connection reset by peer: socket write error":"Application Error: Artifactory",
             "http/1.1: read timed out":"Connectivity Error: Artifactory",
             "http/1.1. received status code 503 and message: service temporarily Unavailable":"Connectivity Error: Artifactory",
+            "error occurred for request ": "Application Error: Artifactory",
             
             "keyerror:": "Key Error",
             
@@ -204,8 +205,9 @@
             "urlerror: [errno 10054] an existing connection was forcibly closed":"Connectivity Error: BDBA",
 
             "bdstool: scan failed": "Application Error: Protex",
-	    "bdstool: login failed for":"Connectivity Error: Protex",
+	        "bdstool: login failed for":"Connectivity Error: Protex",
             "bom list error": "Application Error: Protex",
+            
             "Internal error (reference:": "Application Error: Snyk"
         },
         
@@ -393,7 +395,14 @@
             "running setup.py",
             "config_dm_eth",
             "failed to build",
-            "failed building"
+            "failed building",
+            "errordocument",
+            "error writing to file",
+            "read error",
+            "timeout error",
+            "patch",
+            "could not remove config section",
+            "protocol error"
         ]
     }
 }

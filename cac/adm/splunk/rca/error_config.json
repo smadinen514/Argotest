@@ -315,7 +315,7 @@
             "qerrormessage-members.html",
             "error-members.html",
             "error-obsolete.html",
-            "errorhandler.html",
+            "errorhandler",
             "errorhandler-members.html",
             "error-clang.png",
             "error-message.png",
@@ -402,7 +402,12 @@
             "timeout error",
             "patch",
             "could not remove config section",
-            "protocol error"
+            "protocol error",
+            "memerrorinj",
+            "errorcodes",
+            "could not generate configuration",
+            "recipe for target",
+            "authentication error"
         ]
     }
 }

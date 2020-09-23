@@ -28,7 +28,7 @@
         
         "error_category": {
             "gitlab error": "Application Error: Git",
-            "could not read from remote repository":"Application error: Git",
+            "could not read from remote repository":"Application Error: Git",
             "unable to access 'https://gitlab.devtools.intel.com": "Connectivity Error: Git",
             "gitlab is not responding": "Connectivity Error: Git",
             "authentication failed for":"Connectivity Error: Git",
@@ -52,26 +52,26 @@
             "http/1.1: read timed out":"Connectivity Error: Artifactory",
             "http/1.1. received status code 503 and message: service temporarily Unavailable":"Connectivity Error: Artifactory",
             "error occurred for request ": "Application Error: Artifactory",
+            "failed to deploy file. status code: 502":"Connectivity Error: Artifactory",
+            "keyerror:": "Application Error: HSDES",
             
-            "keyerror:": "Key Error",
+            "nameerror:": "Application Error",
             
-            "nameerror:": "Name Error",
+            "typeerror:": "Application Error",
             
-            "typeerror:": "Type Error",
+            "loading libraries failed": "System Error",
             
-            "loading libraries failed": "Load Error",
+            "attributeerror: ": "Application Error",
             
-            "attributeerror: ": "Attribute Error",
+            "abi_warning:": "Application Error: ABI",
+            "raise abiexception": "Application Error: ABI",
+            "abi_exception": "Application Error: ABI",
+            "abortexception:": "Application Error",
             
-            "abi_warning:": "ABI Warning",
-            "raise abiexception": "ABI Exception Error",
-            "abi_exception": "ABI Exception Error",
-            "abortexception:": "Exception Error",
+            "could not find": "Compilation Errorr",
+            "filenotfounderror:":"Compilation Error",
             
-            "could not find": "Missing Object Error",
-            "filenotfounderror:":"Missing Object Error",
-            
-            "failed to run ticgen:": "TICGEN Error",
+            "failed to run ticgen:": "Application Error: ABI",
             
             "connectionerror": "Connectivity Error",
             "connectionrefusederror": "Connectivity Error",
@@ -81,9 +81,9 @@
             "fetcher failure for url:": "Connectivity Error",
             "connection timed out": "Connectivity Error",
             
-            "directory is not empty": "Filesystem Error",
+            "directory is not empty": "System Error",
             
-            "cannot load":"Load Error",
+            "cannot load":"System Error",
             
             "mandatory update for edkrepo": "System Error",
 
@@ -157,23 +157,22 @@
             "attestation server read": "Compilation Error",
             "failed in branch build - bypass": "Compilation Error",
             
-            "test result   :  -1": "Test Error",
+            "test result   :  -1": "Test Error: Simic",
             
             "configuration error": "Application Error",
             "server error": "Application Error",
             
-            "java.lang.": "Java Exception Error",
-            "java.io.ioexception": "Java Exception Error",
+            "java.io.ioexception": "Application Error",
             
-            "no such container": "Container Error",
-            "there are no nodes": "Container Error",
+            "no such container": "System Error",
+            "there are no nodes": "System Error",
             
-            "not found": "Missing Object Error",
-            "not available": "Missing Object Error",
-            "doesn't exist": "Missing Object Error",
-            "couldn't find": "Missing Object Error",
-            "no such property": "Missing Object Error",
-            "does not exist":"Missing Object Error",
+            "not found": "Compilation Error",
+            "not available": "Compilation Error",
+            "doesn't exist": "Compilation Error",
+            "couldn't find": "Compilation Error",
+            "no such property": "Compilation Error",
+            "does not exist":"Compilation Error",
             
             "no connection could be made because the target machine actively refused it":"Connectivity Error: Klocwork",
             "cannot locate kw tools on system":"Configuration Error: klocwork",
@@ -407,7 +406,10 @@
             "errorcodes",
             "could not generate configuration",
             "recipe for target",
-            "authentication error"
+            "authentication error",
+			"stderr begin",
+			"stderr end",
+			"please refer to logs for more information"
         ]
     }
 }

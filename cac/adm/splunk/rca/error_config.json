@@ -410,6 +410,7 @@
 			"stderr begin",
 			"stderr end",
 			"please refer to logs for more information"
+            "authentication error"
         ]
     }
 }

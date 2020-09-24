@@ -169,6 +169,7 @@
             "could not apply patch": "Compilation Error",
             "patch does not apply": "Compilation Error",
             "patchset is failed to be added": "Compilation Error",
+            "do_package_qa": "Compilation Error",
             
             "test result   :  -1": "Test Error: Simic",
             
@@ -429,7 +430,9 @@
             "errorignore.html",
             "gsterrorignore",
             "cudageterrorstring",
-            "curl: (22) the requested url returned error"
+            "curl: (22) the requested url returned error",
+            "importerror",
+            "bc: not found"
         ]
     }
 }

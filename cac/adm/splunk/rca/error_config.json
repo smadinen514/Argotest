@@ -160,13 +160,12 @@
             "attestation server read": "Compilation Error",
             "failed in branch build - bypass": "Compilation Error",
             "filenotfounderror:":"Compilation Error",
-            "doesn't exist": "Compilation Error",
-            "couldn't find": "Compilation Error",
             "command error": "Compilation Error",
             "code of compile_tool": "Compilation Error",
             "error: parseerror at": "Compilation Error",
             "could not apply patch": "Compilation Error",
             "patch does not apply": "Compilation Error",
+            "patchset is failed to be added": "Compilation Error",
             
             "test result   :  -1": "Test Error: Simic",
             

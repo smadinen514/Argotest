@@ -125,6 +125,7 @@
             "do_fetch": "Compilation Error",
             "error: task ": "Compilation Error",
             "error: logfile of failure stored": "Compilation Error",
+            "Logfile of failure stored in:": "Compilation Error",
             "function failed: " : "Compilation Error",
             "do_configure" : "Compilation Error",
             "error: nothing rprovides" :"Compilation Error",
@@ -164,6 +165,9 @@
             "does not exist":"Compilation Error",
             "command error": "Compilation Error",
             "code of compile_tool": "Compilation Error",
+            "ERROR: ParseError at": "Compilation Error",
+            "could not apply patch": "Compilation Error",
+            "patch does not apply": "Compilation Error",
             
             "test result   :  -1": "Test Error: Simic",
             
@@ -199,7 +203,7 @@
             "urlerror: [errno 10054] an existing connection was forcibly closed":"Connectivity Error: BDBA",
 
             "bdstool: scan failed": "Application Error: Protex",
-	        "bdstool: login failed for":"Connectivity Error: Protex",
+            "bdstool: login failed for":"Connectivity Error: Protex",
             "bom list error": "Application Error: Protex",
             
             "Internal error (reference:": "Application Error: Snyk"
@@ -396,12 +400,10 @@
             "errorinj",
             "errorcodes",
             "could not generate configuration",
-            "recipe for target",
             "authentication error",
-			"stderr begin",
-			"stderr end",
-			"please refer to logs for more information",
-            "authentication error",
+            "stderr begin",
+            "stderr end",
+            "please refer to logs for more information",
             ".o: failed",
             "1 hunk failed",
             "p.stderr",
@@ -416,7 +418,8 @@
             "git upload-pack",
             "pycrypto",
             "v2020.07 release",
-            "the remote end hung up unexpectedly"
+            "the remote end hung up unexpectedly",
+            "patch failures can be resolved"
         ]
     }
 }

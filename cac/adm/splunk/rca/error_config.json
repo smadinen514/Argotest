@@ -60,7 +60,7 @@
             "error occurred for request ": "Application Error: Artifactory",
             "failed to deploy file. status code: 502": "Connectivity Error: Artifactory",
             "failed to deploy file. status code: 401": "Connectivity Error: Artifactory",
-            "error occurred while downloading http://jfstor001.jf.intel.com:8081/artifactory": "Connectivity Error: Artifactory",
+            "caused java.io.ioexception": "Application Error: Artifactory",
             
             "git credentials for https://ubit-artifactory": "Application Error: GitLFS",
             
@@ -72,8 +72,7 @@
             "abortexception:": "Application Error",
             "configuration error": "Application Error",
             "server error": "Application Error",
-            "java.io.ioexception": "Application Error",
-        
+
             "abi_warning:": "Application Error: ABI",
             "raise abiexception": "Application Error: ABI",
             "abi_exception": "Application Error: ABI",

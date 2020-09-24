@@ -47,6 +47,7 @@
             "artifact error": "Connectivity Error: Artifactory",
             "uploading artifacts": "Connectivity Error: Artifactory",
             "expectation failed": "Application Error: Artifactory",
+            "dailed to search artifact": "Application Error: Artifactory",
             "401 response message: artifactory": "Connectivity Error: Artifactory",
             "failed to fetch some objects from 'https://ubit-artifactory": "Connectivity Error: Artifactory",
             "could not read username for 'https://ubit-artifactory": "Connectivity Error: Artifactory",
@@ -70,7 +71,6 @@
             "abortexception:": "Application Error",
             "configuration error": "Application Error",
             "server error": "Application Error",
-            "java.io.ioexception": "Application Error",
         
             "abi_warning:": "Application Error: ABI",
             "raise abiexception": "Application Error: ABI",

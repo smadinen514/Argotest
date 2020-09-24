@@ -157,7 +157,7 @@
             "error 7000": "Compilation Error",
             "cmake error": "Compilation Error",
             "msb1009": "Compilation Error",
-            "no such file or directory": "Compilation Error;",
+            "no such file or directory": "Compilation Error",
             "makefile:": "Compilation Error",
             "prikey size is not same as pubkey": "Compilation Error",
             "attestation server read": "Compilation Error",

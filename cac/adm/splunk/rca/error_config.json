@@ -71,6 +71,7 @@
             "abortexception:": "Application Error",
             "configuration error": "Application Error",
             "server error": "Application Error",
+            "java.io.ioexception": "Application Error",
         
             "abi_warning:": "Application Error: ABI",
             "raise abiexception": "Application Error: ABI",
@@ -426,7 +427,8 @@
             "build plugin documentation",
             "errorignore.html",
             "gsterrorignore",
-            "cudageterrorstring"
+            "cudageterrorstring",
+            "curl: (22) the requested url returned error"
         ]
     }
 }

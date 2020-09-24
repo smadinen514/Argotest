@@ -29,6 +29,8 @@
         "error_category": {
             "gitlab error": "Application Error: Git",
             "could not read from remote repository":"Application Error: Git",
+            "not a git repository": "Application error: Git",
+            "the remote end hung up unexpectedly": "Application error: Git",
             "unable to access 'https://gitlab.devtools.intel.com": "Connectivity Error: Git",
             "gitlab is not responding": "Connectivity Error: Git",
             "authentication failed for":"Connectivity Error: Git",
@@ -38,6 +40,7 @@
             "cloning the git-repo": "Connectivity Error: Git",
             "error: failed to push some refs to": "Connectivity Error: Git",
             "failed to fetch": "Connectivity Error: Git",
+            "giterror": "Connectivity Error: Git",
             "error fetching remote": "Connectivity Error: Git",
             "an optional update for edkrepo is available and can be installed using: edkrepo update":"Configuration Error: Git",
 
@@ -53,24 +56,20 @@
             "http/1.1. received status code 503 and message: service temporarily Unavailable":"Connectivity Error: Artifactory",
             "error occurred for request ": "Application Error: Artifactory",
             "failed to deploy file. status code: 502":"Connectivity Error: Artifactory",
+            
             "keyerror:": "Application Error: HSDES",
             
             "nameerror:": "Application Error",
-            
             "typeerror:": "Application Error",
-            
-            "loading libraries failed": "System Error",
-            
             "attributeerror: ": "Application Error",
-            
+            "abortexception:": "Application Error",
+             "configuration error": "Application Error",
+            "server error": "Application Error",
+            "java.io.ioexception": "Application Error",
+        
             "abi_warning:": "Application Error: ABI",
             "raise abiexception": "Application Error: ABI",
             "abi_exception": "Application Error: ABI",
-            "abortexception:": "Application Error",
-            
-            "could not find": "Compilation Errorr",
-            "filenotfounderror:":"Compilation Error",
-            
             "failed to run ticgen:": "Application Error: ABI",
             
             "connectionerror": "Connectivity Error",
@@ -82,10 +81,9 @@
             "connection timed out": "Connectivity Error",
             
             "directory is not empty": "System Error",
-            
             "cannot load":"System Error",
-            
             "mandatory update for edkrepo": "System Error",
+            "loading libraries failed": "System Error",
 
             "nmake : fatal error" : "Compilation Error",   
             "link : fatal error":"Compilation Error",
@@ -156,23 +154,21 @@
             "prikey size is not same as pubkey": "Compilation Error",
             "attestation server read": "Compilation Error",
             "failed in branch build - bypass": "Compilation Error",
-            
-            "test result   :  -1": "Test Error: Simic",
-            
-            "configuration error": "Application Error",
-            "server error": "Application Error",
-            
-            "java.io.ioexception": "Application Error",
-            
-            "no such container": "System Error",
-            "there are no nodes": "System Error",
-            
+            "could not find": "Compilation Errorr",
+            "filenotfounderror:":"Compilation Error",
             "not found": "Compilation Error",
             "not available": "Compilation Error",
             "doesn't exist": "Compilation Error",
             "couldn't find": "Compilation Error",
             "no such property": "Compilation Error",
             "does not exist":"Compilation Error",
+            "command error": "Compilation Error",
+            "code of compile_tool": "Compilation Error",
+            
+            "test result   :  -1": "Test Error: Simic",
+            
+            "no such container": "System Error",
+            "there are no nodes": "System Error",
             
             "no connection could be made because the target machine actively refused it":"Connectivity Error: Klocwork",
             "cannot locate kw tools on system":"Configuration Error: klocwork",
@@ -187,7 +183,6 @@
             "kwadmin: authentication failed":"Configuration Error: Klocwork",
             
             "couldn't find any revision to build": "Configuration Error",
-
             "groovy.lang.missingpropertyexception": "Configuration Error: Jenkins",
             "errorsexception: startup failed":"Configuration Error: Jenkins",
             
@@ -315,7 +310,6 @@
             "error-members.html",
             "error-obsolete.html",
             "errorhandler",
-            "errorhandler-members.html",
             "error-clang.png",
             "error-message.png",
             "errors.ui",
@@ -383,8 +377,6 @@
             "git did not send all necessary objects",
             "jsondecodeerror",
             "error: index-pack",
-            "the remote end hung up unexpectedly",
-            "stderr: error: rpc failed",
             "fatal: early eof",
             "fatal: index-pack failed",
             "fatal: expected flush after ref listing",
@@ -399,10 +391,9 @@
             "error writing to file",
             "read error",
             "timeout error",
-            "patch",
             "could not remove config section",
             "protocol error",
-            "memerrorinj",
+            "errorinj",
             "errorcodes",
             "could not generate configuration",
             "recipe for target",
@@ -410,7 +401,22 @@
 			"stderr begin",
 			"stderr end",
 			"please refer to logs for more information",
-            "authentication error"
+            "authentication error",
+            ".o: failed",
+            "1 hunk failed",
+            "p.stderr",
+            "hddlunite_build_error",
+            "failed to unpack tree",
+            "error: [function]",
+            "authorizationerror",
+            "_haderror",
+            "errorcount",
+            "copy of the patch that failed",
+            "cannot fork()",
+            "git upload-pack",
+            "pycrypto",
+            "v2020.07 release",
+            "the remote end hung up unexpectedly"
         ]
     }
 }

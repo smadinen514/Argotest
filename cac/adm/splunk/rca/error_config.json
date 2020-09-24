@@ -165,7 +165,7 @@
             "does not exist":"Compilation Error",
             "command error": "Compilation Error",
             "code of compile_tool": "Compilation Error",
-            "ERROR: ParseError at": "Compilation Error",
+            "error: parseerror at": "Compilation Error",
             "could not apply patch": "Compilation Error",
             "patch does not apply": "Compilation Error",
             

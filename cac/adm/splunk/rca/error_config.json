@@ -169,6 +169,15 @@
             "patch does not apply": "Compilation Error",
             "patchset is failed to be added": "Compilation Error",
             "do_package_qa": "Compilation Error",
+            "unable to start bitbake server": "Compilation Error",
+            "the following layer directories do not exist": "Compilation Error",
+            "error: please check bblayers": "Compilation Error",
+            "error in running process": "Compilation Error",
+            "command not found": "Compilation Error",
+            "file not found": "Compilation Error",
+            "error 1": "Compilation Error",
+            "error 2": "Compilation Error",
+            "recipe for target": "Compilation Error",
             
             "test result   :  -1": "Test Error: Simic",
             
@@ -369,8 +378,6 @@
             "failed in branch ",
             "warning",
             "memory-failure.",
-            "error 1",
-            "error 2",
             "invalid command",
             "create mode",
             "/errors/",
@@ -431,7 +438,21 @@
             "cudageterrorstring",
             "curl: (22) the requested url returned error",
             "importerror",
-            "bc: not found"
+            "bc: not found",
+            "server log for this session",
+            "error:    /build/cje/",
+            "runtimeerror",
+            "test_common_buildtoolerror",
+            "test_ecc_ecctoolerror",
+            "test_eot_eottoolerror",
+            "local header:",
+            "- failed -",
+            "errorentrypoint",
+            "script_error=0",
+            "errorlevel= 0",
+            "basegpiocheckconflictlib",
+            "fsperrorinfolib",
+            "kxlink_secure_err"
         ]
     }
 }

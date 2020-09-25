@@ -61,6 +61,7 @@
             "failed to deploy file. status code: 502": "Connectivity Error: Artifactory",
             "failed to deploy file. status code: 401": "Connectivity Error: Artifactory",
             "caused java.io.ioexception": "Application Error: Artifactory",
+            "java.io.ioexception: error downloading https://ubit-artifactory": "Application Error: Artifactory",
             
             "git credentials for https://ubit-artifactory": "Application Error: GitLFS",
             
@@ -178,6 +179,7 @@
             "error 1": "Compilation Error",
             "error 2": "Compilation Error",
             "recipe for target": "Compilation Error",
+            "error: core-image-ese-dev-1.0-r0 do_rootfs": "Compilation Error",
             
             "test result   :  -1": "Test Error: Simic",
             

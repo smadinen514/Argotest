@@ -218,7 +218,9 @@
             "bdstool: login failed for": "Connectivity Error: Protex",
             "bom list error": "Application Error: Protex",
             
-            "Internal error (reference:": "Application Error: Snyk"
+            "internal error (reference:": "Application Error: Snyk",
+            
+            "fail to update hsdes field": "Application Error: HSDES"
         },
         
         "patterns": [
@@ -454,7 +456,8 @@
             "errorlevel= 0",
             "basegpiocheckconflictlib",
             "fsperrorinfolib",
-            "kxlink_secure_err"
+            "kxlink_secure_err",
+            "ibeccerrorreporting"
         ]
     }
 }

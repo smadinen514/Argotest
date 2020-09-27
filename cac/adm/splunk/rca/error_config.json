@@ -82,7 +82,6 @@
             "connectionerror": "Connectivity Error",
             "connectionrefusederror": "Connectivity Error",
             "failed: connection":"Connectivity Error",
-            "sanity": "Connectivity Error",
             "500 internal server error": "Connectivity Error",
             "fetcher failure for url:": "Connectivity Error",
             "connection timed out": "Connectivity Error",
@@ -180,6 +179,8 @@
             "error 2": "Compilation Error",
             "recipe for target": "Compilation Error",
             "error: core-image-ese-dev-1.0-r0 do_rootfs": "Compilation Error",
+            "failed sanity test": "Compilation Error",
+            "qa staging was broken by the package built": "Compilation Error",
             
             "test result   :  -1": "Test Error: Simic",
             

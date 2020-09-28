@@ -274,7 +274,7 @@
             "no error and failure messages",
             "finished: failure",
             "job failed!!!",
-            "build failed.","_tdperrormessage",
+            "_tdperrormessage",
             "2 error(s)",
             "skipped due to earlier failure(s)",
             "groovy.control.errorcollector.failiferrors",

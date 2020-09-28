@@ -182,6 +182,8 @@
             "error: core-image-ese-dev-1.0-r0 do_rootfs": "Compilation Error",
             "failed sanity test": "Compilation Error",
             "qa staging was broken by the package built": "Compilation Error",
+            "could not checkout": "Compilation Error",
+            "fatal: manifest": "Compilation Error",
             
             "test result   :  -1": "Test Error: Simic",
             

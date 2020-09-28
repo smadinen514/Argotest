@@ -29,8 +29,8 @@
         "error_category": {
             "gitlab error": "Application Error: Git",
             "could not read from remote repository": "Application Error: Git",
-            "not a git repository": "Application error: Git",
-            "the remote end hung up unexpectedly": "Application error: Git",
+            "not a git repository": "Application Error: Git",
+            "the remote end hung up unexpectedly": "Application Error: Git",
             "unable to access 'https://gitlab.devtools.intel.com": "Connectivity Error: Git",
             "gitlab is not responding": "Connectivity Error: Git",
             "authentication failed for": "Connectivity Error: Git",

@@ -85,6 +85,7 @@
             "500 internal server error": "Connectivity Error",
             "fetcher failure for url:": "Connectivity Error",
             "connection timed out": "Connectivity Error",
+            "with a status code of: 500": "Connectivity Error",
             
             "directory is not empty": "System Error",
             "cannot load": "System Error",
@@ -458,7 +459,8 @@
             "basegpiocheckconflictlib",
             "fsperrorinfolib",
             "kxlink_secure_err",
-            "ibeccerrorreporting"
+            "ibeccerrorreporting",
+            "{ [error: error]"
         ]
     }
 }

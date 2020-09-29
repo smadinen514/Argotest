@@ -23,7 +23,8 @@
             "test result",
             "connectionrefusederror",
             "abi_err",
-            "java.io.ioexception"
+            "java.io.ioexception",
+            "no rule to make target"
         ],
         
         "error_category": {
@@ -483,7 +484,9 @@
             "checkfsperrorinfohob",
             "checkfsperrorinfohobdxe.efi",
             "checkfsperrorinfohobdxe",
-            "checkfsperrorinfohobdxe.dll"
+            "checkfsperrorinfohobdxe.dll",
+            "not found (optional)",
+            "failed to reset the tallylog entry of user"
         ]
     }
 }

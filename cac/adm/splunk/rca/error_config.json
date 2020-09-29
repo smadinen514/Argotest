@@ -472,7 +472,17 @@
             "fsperrorinfolib",
             "kxlink_secure_err",
             "ibeccerrorreporting",
-            "{ [error: error]"
+            "{ [error: error]",
+            "fsperrorinfo.c",
+            "errorlevel=0",
+            "errorstop",
+            "script_error= 0",
+            "checkfsperrorinfohob\checkfsperrorinfohobdxe.inf [x64]",
+            "checkfsperrorinfohobdxe.c",
+            "checkfsperrorinfohob",
+            "checkfsperrorinfohobdxe.efi",
+            "checkfsperrorinfohobdxe",
+            "checkfsperrorinfohobdxe.dll"
         ]
     }
 }

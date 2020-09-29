@@ -120,7 +120,8 @@
             "qa staging was broken by the package built": "Compilation Error",
             "could not checkout": "Compilation Error",
             "fatal: manifest": "Compilation Error",
-            "Build Failed:": "Compilation Error",
+            "build Failed:": "Compilation Error",
+            "no rule to make target": "Compilation Error (Under Monitoring)",
 
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "Git Related Error",
             "gitlab error": "Application Error: Git",
@@ -171,7 +172,7 @@
             "kwadmin: cannot load project": "Application Error: Klocwork",
             "kwadmin: incompatible server version": "Application Error: Klocwork",
             "error occurred during build: tables directory": "Application Error: Klocwork",
-            "source list is empty": "Application Error: Klocwork",
+            "source list is empty": "Configuration Error: Klocwork",
             "kwadmin: authentication failed": "Configuration Error: Klocwork",
             
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "Jenkins Related Error",

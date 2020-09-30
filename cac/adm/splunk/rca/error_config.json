@@ -3,7 +3,6 @@
     {
         "first_level": [
             "failure",
-            "error",
             "failed",
             "not available",
             "not found",

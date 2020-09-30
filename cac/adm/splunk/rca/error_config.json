@@ -124,6 +124,7 @@
             "failed: cmakefiles/hddl_bypass_shim": "Compilation Error",
             "build stopped: subcommand failed": "Compilation Error",
             "[drivers/misc/xlink-core/xlink.ko] undefined!": "Compilation Error",
+            "debug build: file does not exists!": "Compilation Error",
 
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "Git Related Error",
             "gitlab error": "Application Error: Git",

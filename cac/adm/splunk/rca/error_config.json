@@ -121,7 +121,7 @@
             "could not checkout": "Compilation Error",
             "fatal: manifest": "Compilation Error",
             "build Failed:": "Compilation Error",
-            "no rule to make target": "Compilation Error (Under Monitoring)",
+            "no rule to make target": "Compilation Error",
             "failed: cmakefiles/hddl_bypass_shim": "Compilation Error",
             "build stopped: subcommand failed": "Compilation Error",
             "[drivers/misc/xlink-core/xlink.ko] undefined!": "Compilation Error",

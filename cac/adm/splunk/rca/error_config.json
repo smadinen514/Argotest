@@ -177,6 +177,7 @@
             "error occurred during build: tables directory": "Application Error: Klocwork",
             "source list is empty": "Configuration Error: Klocwork",
             "kwadmin: authentication failed": "Configuration Error: Klocwork",
+            "Exception in thread "main" /nfs/png/disks/ecg_es_disk2/engsrv/tools/klocwork/kw2020.1/_jvm/lib/rt.jar: error reading zip file": "Connectivity Error: Klocwork"
             
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "Jenkins Related Error",
             "couldn't find any revision to build": "Configuration Error: Jenkins",

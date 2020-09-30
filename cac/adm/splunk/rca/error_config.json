@@ -123,6 +123,9 @@
             "fatal: manifest": "Compilation Error",
             "build Failed:": "Compilation Error",
             "no rule to make target": "Compilation Error (Under Monitoring)",
+            "failed: cmakefiles/hddl_bypass_shim": "Compilation Error",
+            "build stopped: subcommand failed": "Compilation Error",
+            "error: modpost: "xlink_pcie_boot_device" [drivers/misc/xlink-core/xlink.ko] undefined!": "Compilation Error",
 
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "Git Related Error",
             "gitlab error": "Application Error: Git",
@@ -198,6 +201,7 @@
             "bdstool: scan failed": "Application Error: Protex",
             "bdstool: login failed for": "Connectivity Error: Protex",
             "bom list error": "Application Error: Protex",
+            "error: protex project name": "Configuration Error: Protex",
             
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "SNYK Related Error",
             "internal error (reference:": "Application Error: Snyk",
@@ -228,6 +232,9 @@
             "fetcher failure for url:": "Connectivity Error",
             "connection timed out": "Connectivity Error",
             "with a status code of: 500": "Connectivity Error",
+            "internal_server_error": "Connectivity Error",
+            "communications link failure": "Connectivity Error",
+            "http response status 500": "Connectivity Error",
             
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "Generic System Error",
             "directory is not empty": "System Error",
@@ -486,7 +493,10 @@
             "checkfsperrorinfohobdxe",
             "checkfsperrorinfohobdxe.dll",
             "not found (optional)",
-            "failed to reset the tallylog entry of user"
+            "failed to reset the tallylog entry of user",
+            "sg not matching base address",
+            "xlink_secure_err",
+            "mcafee antivirus defination not found"
         ]
     }
 }

@@ -17,7 +17,6 @@
             "httperror",
             "urlerror",
             "conflict",
-            "stderr",
             "cannot stat",
             "test result",
             "connectionrefusederror",

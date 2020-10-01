@@ -24,7 +24,8 @@
             "ABIException",
             "java.io.ioexception",
             "ERROR messages shown, returning a non-zero exit code",
-            "no rule to make target"
+            "no rule to make target",
+            "Finished: FAILURE"
         ],
         
         "error_category": {

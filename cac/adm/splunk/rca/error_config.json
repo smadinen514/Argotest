@@ -22,6 +22,7 @@
             "connectionrefusederror",
             "abi_err",
             "java.io.ioexception",
+            "ERROR messages shown, returning a non-zero exit code",
             "no rule to make target"
         ],
         

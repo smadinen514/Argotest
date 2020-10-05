@@ -21,11 +21,11 @@
             "test result",
             "connectionrefusederror",
             "abi_err",
-            "ABIException",
+            "abiexception",
             "java.io.ioexception",
             "no rule to make target",
-            "Finished: FAILURE",
-            "ERROR: script returned exit code 1"
+            "finished: failure",
+            "error: script returned exit code 1"
         ],
         
         "error_category": {
@@ -70,7 +70,7 @@
             "do_fetch": "Compilation Error",
             "error: task ": "Compilation Error",
             "error: logfile of failure stored": "Compilation Error",
-            "Logfile of failure stored in:": "Compilation Error",
+            "logfile of failure stored in:": "Compilation Error",
             "function failed: " : "Compilation Error",
             "do_configure" : "Compilation Error",
             "error: nothing rprovides" : "Compilation Error",
@@ -122,7 +122,7 @@
             "qa staging was broken by the package built": "Compilation Error",
             "could not checkout": "Compilation Error",
             "fatal: manifest": "Compilation Error",
-            "build Failed:": "Compilation Error",
+            "build failed:": "Compilation Error",
             "no rule to make target": "Compilation Error",
             "failed: cmakefiles/hddl_bypass_shim": "Compilation Error",
             "build stopped: subcommand failed": "Compilation Error",

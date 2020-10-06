@@ -508,6 +508,7 @@
             "sg not matching base address",
             "xlink_secure_err",
             "mcafee antivirus defination not found"
+            "symbol '__alt_data_end' not found in nm-output"
         ]
     }
 }

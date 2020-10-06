@@ -24,11 +24,12 @@
             "abi_err",
             "abiexception",
             "java.io.ioexception",
+            "java.lang.exception",
             "this is a comment to segmentized common error type to be used for different error category - compilation error type",
             "no rule to make target",
             "finished: failure",
             "error: script returned exit code 1",
-	    "makefile:",
+	        "makefile:",
             "non-zero exit code",
             "script_error= 1",
             "internal error",
@@ -40,10 +41,11 @@
             "this is a comment to segmentized common error type to be used for different error category - application error type",
             "[error] kwadmin:",
             "could not checkout",
-	    "other error:",
+	        "other error:",
             "server error",
             "connection error sending email",
-            "results is not yet ready"
+            "results is not yet ready",
+            "error cloning"
         ],
         
         "error_category": {
@@ -110,7 +112,7 @@
             "fsp build": "Compilation Error",
             "bios build": "Compilation Error",
             "error 7000": "Compilation Error",
-	    "error 3000": "Compilation Error",
+	        "error 3000": "Compilation Error",
             "cmake error": "Compilation Error",
             "msb1009": "Compilation Error",
             "no such file or directory": "Compilation Error",
@@ -148,12 +150,18 @@
             "debug build: file does not exists!": "Compilation Error",
             "error messages shown, returning a non-zero exit code": "Compilation Error",
             "does not exist! Please check bblayers": "Compilation Error",
-	    "error messages shown, returning a non-zero exit code": "Compilation Error",
             "error message shown, returning a non-zero exit code": "Compilation Error",
             "integration for audio failed": "Compilation Error",
             "script_error= 1": "Compilation Error",
             "error: script returned exit code 1": "Compilation Error",
             "failed to build": "Compilation Error",
+            "hddlunite not found! skipping build of hddl extension": "Compilation Error",
+            "tar.gz: not found in archive": "Compilation Error",
+            "exiting with failure status due to previous errors": "Compilation Error",
+            "fatal: unable to read tree": "Compilation Error",
+            "file/directory not found in workspace": "Compilation Error",
+            "not found in packages path": "Compilation Error",
+            "fatal: remote upstream already exists": "Compilation Error",
 
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "Git Related Error",
             "gitlab error": "Application Error: Git",
@@ -173,6 +181,8 @@
             "error fetching remote": "Connectivity Error: Git",
             "an optional update for edkrepo is available and can be installed using: edkrepo update": "Configuration Error: Git",
             "fatal: remote upstream already exists": "Configuration Error: Git",
+            "error: rpc failed; curl 56 gnutls": "Connectivity Error: Git",
+            "error cloning remote repo": "Connectivity Error: Git",
 
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "Artifactory Related Error",
             "artifact error": "Connectivity Error: Artifactory",
@@ -194,6 +204,8 @@
             "caused java.io.ioexception": "Application Error: Artifactory",
             "java.io.ioexception: error downloading https://ubit-artifactory": "Application Error: Artifactory",
             "git credentials for https://ubit-artifactory": "Application Error: Artifactory",
+            "error occurred while downloading http://jf": "Connectivity Error: Artifactory",
+            "java.io.ioexception: could not create or write to file": "Connectivity Error: Artifactory",
             
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "Klocwork Related Error",
             "no connection could be made because the target machine actively refused it": "Connectivity Error: Klocwork",
@@ -213,6 +225,7 @@
             "couldn't find any revision to build": "Configuration Error: Jenkins",
             "groovy.lang.missingpropertyexception": "Configuration Error: Jenkins",
             "errorsexception: startup failed": "Configuration Error: Jenkins",
+            "error when executing failure post condition": "Configuration Error: Jenkins",
             
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "BDBA Related Error",
             "httperror: 401 - no permission": "Application Error: BDBA",
@@ -228,7 +241,8 @@
             "urlerror: [errno 10054] an existing connection was forcibly closed": "Connectivity Error: BDBA",
             
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "EMAIL Error",
-            "Connection error sending email": "Connectivity Error: EMAIL",
+            "connection error sending email": "Connectivity Error: EMAIL",
+            "failed after second try sending email": "Connectivity Error: EMAIL",
 
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "PROTEXIP Related Error",
             "bdstool: scan failed": "Application Error: Protex",
@@ -238,7 +252,8 @@
             
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "SNYK Related Error",
             "internal error (reference:": "Application Error: Snyk",
-	    "copy failed: stat /docker": "Compilation Error: Snyk",
+	        "copy failed: stat /docker": "Compilation Error: Snyk",
+	        "docker error: image was not found locally and pulling failed": "Configuration Error: Snyk",
 
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "HSDES Related Error",
             "keyerror:": "Application Error: HSDES",
@@ -278,7 +293,7 @@
             "test result   :  -1": "Test Error: Simic",
             "no such container": "System Error",
             "there are no nodes": "System Error",
-	    "no space left on device": "System Error"
+	        "no space left on device": "System Error"
         },
         
         "patterns": [
@@ -514,7 +529,7 @@
             "errorlevel= 0",
             "basegpiocheckconflictlib",
             "fsperrorinfolib",
-            "kxlink_secure_err",
+            "xlink_secure_err",
             "ibeccerrorreporting",
             "{ [error: error]",
             "fsperrorinfo.c",
@@ -529,10 +544,16 @@
             "checkfsperrorinfohobdxe.dll",
             "not found (optional)",
             "failed to reset the tallylog entry of user",
-            "sg not matching base address",
-            "xlink_secure_err",
             "mcafee antivirus defination not found",
-            "symbol '__alt_data_end' not found in nm-output"
+            "symbol '__alt_data_end' not found in nm-output",
+            "_dir not found setting to default",
+            "libraries and headers were not found",
+            "package '",
+            "failed-syscalls",
+            "failure.log",
+            "conflict.c",
+            "caused: java.io.ioexception",
+            "conflicts between attempted install"
         ]
     }
 }

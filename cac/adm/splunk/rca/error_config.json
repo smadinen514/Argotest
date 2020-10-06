@@ -29,7 +29,7 @@
             "no rule to make target",
             "finished: failure",
             "error: script returned exit code 1",
-	        "makefile:",
+            "makefile:",
             "non-zero exit code",
             "script_error= 1",
             "internal error",
@@ -41,7 +41,7 @@
             "this is a comment to segmentized common error type to be used for different error category - application error type",
             "[error] kwadmin:",
             "could not checkout",
-	        "other error:",
+            "other error:",
             "server error",
             "connection error sending email",
             "results is not yet ready",
@@ -112,7 +112,7 @@
             "fsp build": "Compilation Error",
             "bios build": "Compilation Error",
             "error 7000": "Compilation Error",
-	        "error 3000": "Compilation Error",
+            "error 3000": "Compilation Error",
             "cmake error": "Compilation Error",
             "msb1009": "Compilation Error",
             "no such file or directory": "Compilation Error",
@@ -162,7 +162,7 @@
             "file/directory not found in workspace": "Compilation Error",
             "not found in packages path": "Compilation Error",
             "fatal: remote upstream already exists": "Compilation Error",
-
+            
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "Git Related Error",
             "gitlab error": "Application Error: Git",
             "could not read from remote repository": "Application Error: Git",
@@ -183,7 +183,7 @@
             "fatal: remote upstream already exists": "Configuration Error: Git",
             "error: rpc failed; curl 56 gnutls": "Connectivity Error: Git",
             "error cloning remote repo": "Connectivity Error: Git",
-
+            
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "Artifactory Related Error",
             "artifact error": "Connectivity Error: Artifactory",
             "uploading artifacts": "Connectivity Error: Artifactory",
@@ -243,7 +243,7 @@
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "EMAIL Error",
             "connection error sending email": "Connectivity Error: EMAIL",
             "failed after second try sending email": "Connectivity Error: EMAIL",
-
+            
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "PROTEXIP Related Error",
             "bdstool: scan failed": "Application Error: Protex",
             "bdstool: login failed for": "Connectivity Error: Protex",
@@ -252,19 +252,19 @@
             
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "SNYK Related Error",
             "internal error (reference:": "Application Error: Snyk",
-	        "copy failed: stat /docker": "Compilation Error: Snyk",
-	        "docker error: image was not found locally and pulling failed": "Configuration Error: Snyk",
-
+            "copy failed: stat /docker": "Compilation Error: Snyk",
+            "docker error: image was not found locally and pulling failed": "Configuration Error: Snyk",
+            
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "HSDES Related Error",
             "keyerror:": "Application Error: HSDES",
             "fail to update hsdes field": "Application Error: HSDES",
-
+            
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "ABI Related Error",
             "abi_warning:": "Application Error: ABI",
             "raise abiexception": "Application Error: ABI",
             "abi_exception": "Application Error: ABI",
             "failed to run ticgen:": "Application Error: ABI",
-
+            
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "Generic Application Error",
             "nameerror:": "Application Error",
             "typeerror:": "Application Error",
@@ -272,7 +272,7 @@
             "abortexception:": "Application Error",
             "configuration error": "Application Error",
             "server error": "Application Error",
-
+            
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "Generic Connectivity Error",
             "connectionerror": "Connectivity Error",
             "connectionrefusederror": "Connectivity Error",
@@ -284,7 +284,7 @@
             "internal_server_error": "Connectivity Error",
             "communications link failure": "Connectivity Error",
             "http response status 500": "Connectivity Error",
-
+            
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "Generic System Error",
             "directory is not empty": "System Error",
             "cannot load": "System Error",
@@ -293,7 +293,7 @@
             "test result   :  -1": "Test Error: Simic",
             "no such container": "System Error",
             "there are no nodes": "System Error",
-	        "no space left on device": "System Error"
+            "no space left on device": "System Error"
         },
         
         "patterns": [

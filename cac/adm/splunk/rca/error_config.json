@@ -158,7 +158,6 @@
             "hddlunite not found! skipping build of hddl extension": "Compilation Error",
             "tar.gz: not found in archive": "Compilation Error",
             "exiting with failure status due to previous errors": "Compilation Error",
-            "fatal: unable to read tree": "Compilation Error",
             "file/directory not found in workspace": "Compilation Error",
             "not found in packages path": "Compilation Error",
             "fatal: remote upstream already exists": "Compilation Error",
@@ -183,6 +182,7 @@
             "fatal: remote upstream already exists": "Configuration Error: Git",
             "error: rpc failed; curl 56 gnutls": "Connectivity Error: Git",
             "error cloning remote repo": "Connectivity Error: Git",
+            "fatal: unable to read tree": "Configuration Error: Git",
             
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "Artifactory Related Error",
             "artifact error": "Connectivity Error: Artifactory",
@@ -554,6 +554,8 @@
             "conflict.c",
             "caused: java.io.ioexception",
             "conflicts between attempted install"
+            "failed to generate fip_aid.bin",
+            "found 0 unit-test failure"
         ]
     }
 }

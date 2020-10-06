@@ -2,12 +2,13 @@
 "intents":
     {
         "first_level": [
+            "this is a comment to segmentized common error type to be used for different error category - pre-requisite",
+            "running on ",
             "this is a comment to segmentized common error type to be used for different error category - generic error type",
             "failure",
             "failed",
             "not available",
             "not found",
-            "running on ",
             "no such property",
             "couldn't find",
             "fatal:",

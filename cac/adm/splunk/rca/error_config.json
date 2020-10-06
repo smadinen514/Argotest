@@ -28,15 +28,26 @@
             "no rule to make target",
             "finished: failure",
             "error: script returned exit code 1",
+	    "makefile:",
+            "non-zero exit code",
+            "script_error= 1",
+            "internal error",
+            "error 1",
+            "error 2",
+            "error 7000",
+            "error 3000",
+            "build fail",
             "this is a comment to segmentized common error type to be used for different error category - application error type",
             "[ERROR] kwadmin:",
-            "could not checkout"
+            "could not checkout",
+	    "other error:",
+            "server error",
+            "results is not yet ready"
         ],
         
         "error_category": {
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "Compilation Related Error",
             "nmake : fatal error" : "Compilation Error",   
-            "link : fatal error": "Compilation Error",
             "error while encapsulate fd image": "Compilation Error",
             "error while add some named ffs file into the fd image file": "Compilation Error",
             "must supply an action name and an arg list": "Compilation Error",
@@ -98,6 +109,7 @@
             "fsp build": "Compilation Error",
             "bios build": "Compilation Error",
             "error 7000": "Compilation Error",
+	    "error 3000": "Compilation Error",
             "cmake error": "Compilation Error",
             "msb1009": "Compilation Error",
             "no such file or directory": "Compilation Error",
@@ -134,7 +146,13 @@
             "[drivers/misc/xlink-core/xlink.ko] undefined!": "Compilation Error",
             "debug build: file does not exists!": "Compilation Error",
             "error messages shown, returning a non-zero exit code": "Compilation Error",
-            "does not exist! Please check BBLAYERS": "Compilation Error",
+            "does not exist! Please check bblayers": "Compilation Error",
+	    "error messages shown, returning a non-zero exit code": "Compilation Error",
+            "error message shown, returning a non-zero exit code": "Compilation Error",
+            "integration for audio failed": "Compilation Error",
+            "script_error= 1": "Compilation Error",
+            "error: script returned exit code 1": "Compilation Error",
+            "failed to build": "Compilation Error",
 
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "Git Related Error",
             "gitlab error": "Application Error: Git",
@@ -159,7 +177,7 @@
             "artifact error": "Connectivity Error: Artifactory",
             "uploading artifacts": "Connectivity Error: Artifactory",
             "expectation failed": "Application Error: Artifactory",
-            "dailed to search artifact": "Application Error: Artifactory",
+            "failed to search artifact": "Application Error: Artifactory",
             "401 response message: artifactory": "Connectivity Error: Artifactory",
             "failed to fetch some objects from 'https://ubit-artifactory": "Connectivity Error: Artifactory",
             "could not read username for 'https://ubit-artifactory": "Connectivity Error: Artifactory",
@@ -216,6 +234,7 @@
             
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "SNYK Related Error",
             "internal error (reference:": "Application Error: Snyk",
+	    "copy failed: stat /docker": "Compilation Error: Snyk",
 
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "HSDES Related Error",
             "keyerror:": "Application Error: HSDES",
@@ -254,7 +273,8 @@
             "loading libraries failed": "System Error",
             "test result   :  -1": "Test Error: Simic",
             "no such container": "System Error",
-            "there are no nodes": "System Error"
+            "there are no nodes": "System Error",
+	    "no space left on device": "System Error"
         },
         
         "patterns": [

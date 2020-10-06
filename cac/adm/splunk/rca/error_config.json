@@ -42,6 +42,7 @@
             "could not checkout",
 	    "other error:",
             "server error",
+            "Connection error sending email",
             "results is not yet ready"
         ],
         
@@ -225,6 +226,9 @@
             "[errno 111] connection refused": "Connectivity Error: BDBA",
             "response got: unauthorized": "Connectivity Error: BDBA",
             "urlerror: [errno 10054] an existing connection was forcibly closed": "Connectivity Error: BDBA",
+            
+            "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "EMAIL Error",
+            "Connection error sending email": "Connectivity Error: EMAIL",
 
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "PROTEXIP Related Error",
             "bdstool: scan failed": "Application Error: Protex",
@@ -265,7 +269,7 @@
             "internal_server_error": "Connectivity Error",
             "communications link failure": "Connectivity Error",
             "http response status 500": "Connectivity Error",
-            
+
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "Generic System Error",
             "directory is not empty": "System Error",
             "cannot load": "System Error",
@@ -527,7 +531,7 @@
             "failed to reset the tallylog entry of user",
             "sg not matching base address",
             "xlink_secure_err",
-            "mcafee antivirus defination not found"
+            "mcafee antivirus defination not found",
             "symbol '__alt_data_end' not found in nm-output"
         ]
     }

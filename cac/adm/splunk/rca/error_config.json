@@ -2,11 +2,11 @@
 "intents":
     {
         "first_level": [
+            "this is a comment to segmentized common error type to be used for different error category - generic error type",
             "failure",
             "failed",
             "not available",
             "not found",
-            "could not checkout",
             "running on ",
             "no such property",
             "couldn't find",
@@ -23,9 +23,13 @@
             "abi_err",
             "abiexception",
             "java.io.ioexception",
+            "this is a comment to segmentized common error type to be used for different error category - compilation error type",
             "no rule to make target",
             "finished: failure",
-            "error: script returned exit code 1"
+            "error: script returned exit code 1",
+            "this is a comment to segmentized common error type to be used for different error category - application error type",
+            "[ERROR] kwadmin:",
+            "could not checkout"
         ],
         
         "error_category": {

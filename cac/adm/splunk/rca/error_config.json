@@ -38,11 +38,11 @@
             "error 3000",
             "build fail",
             "this is a comment to segmentized common error type to be used for different error category - application error type",
-            "[ERROR] kwadmin:",
+            "[error] kwadmin:",
             "could not checkout",
 	    "other error:",
             "server error",
-            "Connection error sending email",
+            "connection error sending email",
             "results is not yet ready"
         ],
         

@@ -89,7 +89,6 @@
             "do_fetch": "Compilation Error",
             "error: task ": "Compilation Error",
             "error: logfile of failure stored": "Compilation Error",
-            "logfile of failure stored in:": "Compilation Error",
             "function failed: " : "Compilation Error",
             "do_configure" : "Compilation Error",
             "error: nothing rprovides" : "Compilation Error",

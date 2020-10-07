@@ -46,7 +46,8 @@
             "server error",
             "connection error sending email",
             "results is not yet ready",
-            "error cloning"
+            "error cloning",
+            "exec user process"
         ],
         
         "error_category": {
@@ -258,6 +259,7 @@
             "internal error (reference:": "Application Error: Snyk",
             "copy failed: stat /docker": "Compilation Error: Snyk",
             "docker error: image was not found locally and pulling failed": "Configuration Error: Snyk",
+            "standard_init_linux.go:185: exec user process caused": "Configuration Error: Snyk",
             
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "HSDES Related Error",
             "keyerror:": "Application Error: HSDES",
@@ -562,7 +564,9 @@
             "found 0 unit-test failure",
             "looking for pthread.h - not found",
             "conflicting requests",
-            "conflict (modify/delete):"
+            "conflict (modify/delete):",
+            ".h not found",
+            "curl-config failed"
         ]
     }
 }

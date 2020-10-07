@@ -565,7 +565,7 @@
             "looking for pthread.h - not found",
             "conflicting requests",
             "conflict (modify/delete):",
-            ".h not found",
+            ". . . . . no (",
             "curl-config failed"
         ]
     }

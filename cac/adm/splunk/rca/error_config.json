@@ -556,7 +556,8 @@
             "caused: java.io.ioexception",
             "conflicts between attempted install",
             "failed to generate fip_aid.bin",
-            "found 0 unit-test failure"
+            "found 0 unit-test failure",
+            "conflicting requests"
         ]
     }
 }

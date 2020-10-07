@@ -29,6 +29,7 @@
             "no rule to make target",
             "finished: failure",
             "error: script returned exit code 1",
+            "error: script returned exit code -1",
             "makefile:",
             "non-zero exit code",
             "script_error= 1",
@@ -249,7 +250,9 @@
             "bdstool: scan failed": "Application Error: Protex",
             "bdstool: login failed for": "Connectivity Error: Protex",
             "bom list error": "Application Error: Protex",
+            "bdstool: command failed:": "Application Error: Protex",
             "error: protex project name": "Configuration Error: Protex",
+            "other error: authenticated ****@intel.com on": "Application Error: Protex",
             
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "SNYK Related Error",
             "internal error (reference:": "Application Error: Snyk",
@@ -558,7 +561,8 @@
             "failed to generate fip_aid.bin",
             "found 0 unit-test failure",
             "looking for pthread.h - not found",
-            "conflicting requests"
+            "conflicting requests",
+            "conflict (modify/delete):"
         ]
     }
 }

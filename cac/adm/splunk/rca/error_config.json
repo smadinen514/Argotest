@@ -103,7 +103,6 @@
             "failed with exit code '1'": "Compilation Error" ,
             "failed with exit code 1": "Compilation Error" ,
             "exit code: 1": "Compilation Error",
-            "non-zero exit code": "Compilation Error",
             "returned 1 exit status": "Compilation Error",
             "failed to merge": "Compilation Error" ,
             "error U1077": "Compilation Error" ,

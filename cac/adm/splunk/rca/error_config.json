@@ -401,7 +401,8 @@
             "curl-config failed",
             "openembedded-core not found",
             "tests failed  : 0",
-            "/tests failed  :/"
+            "/tests failed  :/",
+            ""stderr_console.","
         ]
     }
 }

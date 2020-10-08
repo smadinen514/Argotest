@@ -184,6 +184,9 @@
             "error cloning remote repo": "Connectivity Error: Git",
             "fatal: unable to read tree": "Configuration Error: Git",
             "unknown revision or path not in the working tree": "Configuration Error: Git",
+            "clone of 'https://github.com": "Connectivity Error: Git",
+            "unable to access 'https://github": "Connectivity Error: Git",
+            "fatal: unable to access 'https://git": "Connectivity Error: Git",
             
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "Artifactory Related Error",
             "artifact error": "Connectivity Error: Artifactory",
@@ -565,8 +568,10 @@
             "looking for pthread.h - not found",
             "conflicting requests",
             "conflict (modify/delete):",
-            ". . . . . no (",
-            "curl-config failed"
+            ". . . no (",
+            ".h not found",
+            "curl-config failed",
+            "openembedded-core not found"
         ]
     }
 }

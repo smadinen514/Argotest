@@ -260,9 +260,10 @@
             
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "SNYK Related Error",
             "internal error (reference:": "Application Error: Snyk",
-            "copy failed: stat /docker": "Compilation Error: Snyk",
+            "copy failed: stat /docker": "Configuration Error: Snyk",
             "docker error: image was not found locally and pulling failed": "Configuration Error: Snyk",
             "standard_init_linux.go:185: exec user process caused": "Configuration Error: Snyk",
+            "config.json does not exist": "Configuration Error: Snyk",
             
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "HSDES Related Error",
             "keyerror:": "Application Error: HSDES",
@@ -571,7 +572,9 @@
             ". . . no (",
             ".h not found",
             "curl-config failed",
-            "openembedded-core not found"
+            "openembedded-core not found",
+            "tests failed  : 0",
+            "/tests failed  :/"
         ]
     }
 }

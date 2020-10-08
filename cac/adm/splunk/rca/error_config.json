@@ -60,7 +60,6 @@
             "java.lang.exception",
             "this is a comment to segmentized common error type to be used for different error category - compilation error type",
             "no rule to make target",
-            "finished: failure",
             "script returned exit code 1",
             "makefile:",
             "gnumakefile:",

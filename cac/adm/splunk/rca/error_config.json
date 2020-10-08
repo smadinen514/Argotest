@@ -160,6 +160,7 @@
             "tar.gz: not found in archive": "Compilation Error",
             "file/directory not found in workspace": "Compilation Error",
             "not found in packages path": "Compilation Error",
+            "previous ipdb not found, fall back to full compilation": "Compilation Error",
             "fatal: remote upstream already exists": "Compilation Error",
             
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "Git Related Error",

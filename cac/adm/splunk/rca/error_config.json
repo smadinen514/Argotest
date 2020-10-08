@@ -304,6 +304,7 @@
             "test result   :  -1": "Test Error: Simic",
             "no such container": "System Error",
             "there are no nodes": "System Error",
+            "error: the process \"python.exe\" not found": "System Error",
             "no space left on device": "System Error"
         },
         

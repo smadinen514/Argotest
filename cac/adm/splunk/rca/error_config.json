@@ -340,7 +340,6 @@
             "applying:",
             "opencv.patch",
             "currror.c.o",
-            ".patch",
             "expected_stderr",
             "failed in branch ",
             "warning",

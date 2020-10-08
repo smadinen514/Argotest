@@ -402,7 +402,7 @@
             "openembedded-core not found",
             "tests failed  : 0",
             "/tests failed  :/",
-            stderr_console.",
+            "stderr_console.",
         ]
     }
 }

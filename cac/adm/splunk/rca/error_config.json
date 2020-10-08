@@ -425,7 +425,7 @@
             ".h not found",
             "openembedded-core not found",
             "stderr_console.",
-            "/Makefile:"
+            "/makefile:"
         ]
     }
 }

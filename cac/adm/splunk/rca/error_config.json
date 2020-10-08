@@ -82,7 +82,8 @@
             "exec user process",
             "couldn't find any revision",
             "error fetching",
-            "error: cannot fetch"
+            "error: cannot fetch",
+            "please check bblayers"
         ],
         
         "error_category": {
@@ -220,10 +221,14 @@
             "fatal: remote upstream already exists": "Configuration Error: Git",
             "error cloning remote repo": "Connectivity Error: Git",
             "fatal: unable to read tree": "Configuration Error: Git",
+            "fatal: reference is not a tree": "Configuration Error: Git",
+            "fatal: could not parse object": "Configuration Error: Git",
             "unknown revision or path not in the working tree": "Configuration Error: Git",
             "clone of 'https://github.com": "Connectivity Error: Git",
             "unable to access 'https://github": "Connectivity Error: Git",
             "fatal: unable to access 'https://git": "Connectivity Error: Git",
+            "fatal: couldn't find remote ref": "Connectivity Error: Git",
+            ".git not found": "Configuration Error: Git",
             
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "Artifactory Related Error",
             "artifact error": "Connectivity Error: Artifactory",

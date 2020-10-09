@@ -83,7 +83,8 @@
             "error fetching",
             "error: cannot fetch",
             "please check bblayers",
-            "traceback (most recent call last):"
+            "traceback (most recent call last):",
+            "gitlab error"
         ],
         
         "error_category": {

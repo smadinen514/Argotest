@@ -185,7 +185,6 @@
             "error message shown, returning a non-zero exit code": "Compilation Error",
             "integration for audio failed": "Compilation Error",
             "script_error= 1": "Compilation Error",
-            "error: script returned exit code 1": "Compilation Error",
             "failed to build": "Compilation Error",
             "hddlunite not found! skipping build of hddl extension": "Compilation Error",
             "tar.gz: not found in archive": "Compilation Error",

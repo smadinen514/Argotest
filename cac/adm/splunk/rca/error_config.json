@@ -82,7 +82,8 @@
             "couldn't find any revision",
             "error fetching",
             "error: cannot fetch",
-            "please check bblayers"
+            "please check bblayers",
+            "traceback (most recent call last):"
         ],
         
         "error_category": {
@@ -123,7 +124,7 @@
             "iso-codes-4.2-r0": "Compilation Error",
             "ore-image-ese-initramfs-base-1.0-r0": "Compilation Error",
             "core-image-ese-initramfs-base": "Compilation Error",
-            "do_fetch: failed": "Compilation Error",
+            "do_fetch": "Compilation Error",
             "error: task": "Compilation Error",
             "function failed: " : "Compilation Error",
             "do_configure" : "Compilation Error",
@@ -197,6 +198,7 @@
             "bsp build: failed": "Compilation Error",
             "daily build: failed": "Compilation Error",
             "error: cannot fetch": "Compilation Error",
+            "traceback (most recent call last):": "Compilation Error",
             
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "Git Related Error",
             "gitlab error": "Application Error: Git",
@@ -424,7 +426,8 @@
             ".h not found",
             "openembedded-core not found",
             "stderr_console.",
-            "/makefile:"
+            "/makefile:",
+            "curl: (22) the requested url returned error: 404 not found"
         ]
     }
 }

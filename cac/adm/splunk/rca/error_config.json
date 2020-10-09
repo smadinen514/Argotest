@@ -83,7 +83,8 @@
             "error: cannot fetch",
             "please check bblayers",
             "traceback (most recent call last):",
-            "gitlab error"
+            "gitlab error",
+            "error is not recoverable"
         ],
         
         "error_category": {
@@ -198,6 +199,7 @@
             "daily build: failed": "Compilation Error",
             "error: cannot fetch": "Compilation Error",
             "traceback (most recent call last):": "Compilation Error",
+            "error: script returned exit code 1": "Compilation Error",
             
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "Git Related Error",
             "gitlab error": "Application Error: Git",
@@ -289,6 +291,7 @@
             "response got: unauthorized": "Connectivity Error: BDBA",
             "urlerror: [errno 10054] an existing connection was forcibly closed": "Connectivity Error: BDBA",
             "hudson.AbortException: script returned exit code 1": "Connectivity Error: BDBA",
+            "error is not recoverable: exiting now": "Application Error: BDBA",
             
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "EMAIL Error",
             "connection error sending email": "Connectivity Error: EMAIL",

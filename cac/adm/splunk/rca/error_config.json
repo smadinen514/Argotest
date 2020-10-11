@@ -271,6 +271,7 @@
             "rt.jar: error reading zip file": "Connectivity Error: Klocwork",
             "error occurred during build: c/c++ defects detection stage failed": "Application Error: Klocwork",
             "error occurred during build: the server project configuration": "Application Error: Klocwork",
+            "[error] error occurred during build: connection to https://klocwork": "Connectivity Error: Klocwork",
             
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "Jenkins Related Error",
             "couldn't find any revision to build": "Configuration Error: Jenkins",
@@ -431,7 +432,8 @@
             "openembedded-core not found",
             "stderr_console.",
             "/makefile:",
-            "curl: (22) the requested url returned error: 404 not found"
+            "curl: (22) the requested url returned error: 404 not found",
+            "error: script returned exit code 1"
         ]
     }
 }

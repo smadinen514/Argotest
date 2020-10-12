@@ -431,7 +431,8 @@
             "conflict (modify/delete):",
             "stderr_console.",
             "/makefile:",
-            "error: script returned exit code 1"
+            "error: script returned exit code 1",
+            "java.io.ioexception: could not checkout"
         ]
     }
 }

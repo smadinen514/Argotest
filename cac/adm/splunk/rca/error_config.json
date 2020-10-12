@@ -208,14 +208,13 @@
             "execution is failed (exit code: 1)": "Compilation Error",
             "bsp build: failed": "Compilation Error",
             "daily build: failed": "Compilation Error",
-            "error: cannot fetch": "Compilation Error",
             "traceback (most recent call last):": "Compilation Error",
             "error 404: not found": "Compilation Error",
             "http error 404 client error: not found for url": "Compilation Error",
             
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "Git Related Error",
             "gitlab error": "Application Error: Git",
-            "could not read from remote repository": "Application Error: Git",
+            "could not read from remote repository": "Connectivity Error: Git",
             "not a git repository": "Application Error: Git",
             "the remote end hung up unexpectedly": "Application Error: Git",
             "unable to access 'https://gitlab.devtools.intel.com": "Connectivity Error: Git",
@@ -242,6 +241,7 @@
             "fatal: couldn't find remote ref": "Connectivity Error: Git",
             ".git not found": "Configuration Error: Git",
             "fatal: cannot obtain manifest https://git": "Configuration Error: Git",
+            "error: cannot fetch": "Connectivity Error: Git",
             
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "Artifactory Related Error",
             "artifact error": "Connectivity Error: Artifactory",

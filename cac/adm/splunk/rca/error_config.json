@@ -325,6 +325,7 @@
             "docker error: image was not found locally and pulling failed": "Configuration Error: Snyk",
             "standard_init_linux.go:185: exec user process caused": "Configuration Error: Snyk",
             "config.json does not exist": "Configuration Error: Snyk",
+            "connection failed [ip:": "Connectivity Error: Snyk",
             
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "HSDES Related Error",
             "keyerror:": "Application Error: HSDES",
@@ -432,7 +433,8 @@
             "stderr_console.",
             "/makefile:",
             "error: script returned exit code 1",
-            "java.io.ioexception: could not checkout"
+            "java.io.ioexception: could not checkout",
+            "is not available, but is referred"
         ]
     }
 }

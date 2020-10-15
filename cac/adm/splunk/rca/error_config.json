@@ -39,7 +39,6 @@
             "scanning is failed",
             "do_fetch: failed",
             "failed with exit code",
-            "not available",
             ".git not found",
             "error 404: not found",
             "identifier not found",
@@ -120,8 +119,6 @@
             "drivers/spi/spi-dw.h": "Compilation Error",
             "thunderbay": "Compilation Error",
             "mainline-tracking": "Compilation Error",
-            "meson": "Compilation Error",
-            "mesa": "Compilation Error",
             "error: cairo": "Compilation Error",
             "cairo": "Compilation Error" ,
             "do_populate_sdk": "Compilation Error",
@@ -367,7 +364,8 @@
             "no such container": "System Error",
             "there are no nodes": "System Error",
             "error: the process \"python.exe\" not found": "System Error",
-            "no space left on device": "System Error"
+            "no space left on device": "System Error",
+            "java.io.ioexception: unable to create live filepath": "System Error"
         },
         
         "patterns": [
@@ -433,8 +431,7 @@
             "stderr_console.",
             "/makefile:",
             "error: script returned exit code 1",
-            "java.io.ioexception: could not checkout",
-            "is not available, but is referred"
+            "java.io.ioexception: could not checkout"
         ]
     }
 }

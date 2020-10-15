@@ -316,6 +316,7 @@
             "bdstool: command failed:": "Application Error: Protex",
             "error: protex project name": "Configuration Error: Protex",
             "other error: authenticated ****@intel.com on": "Application Error: Protex",
+            "[protex] other error: ignore list": "Configuration Error: Protex",
             
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "SNYK Related Error",
             "internal error (reference:": "Application Error: Snyk",

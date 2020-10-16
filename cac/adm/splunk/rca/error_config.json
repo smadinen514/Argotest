@@ -434,7 +434,8 @@
             "stderr_console.",
             "/makefile:",
             "error: script returned exit code 1",
-            "java.io.ioexception: could not checkout"
+            "java.io.ioexception: could not checkout",
+            "warn : problem with id"
         ]
     }
 }

@@ -239,6 +239,7 @@
             "fatal: cannot obtain manifest https://git": "Configuration Error: Git",
             "error: cannot fetch": "Connectivity Error: Git",
             "fatal: could not create work tree": "Connectivity Error: Git",
+            "fatal: failed to unpack tree object": "Configuration Error: Git",
             
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "Artifactory Related Error",
             "artifact error": "Connectivity Error: Artifactory",

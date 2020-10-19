@@ -212,7 +212,7 @@
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "Git Related Error",
             "gitlab error": "Application Error: Git",
             "could not read from remote repository": "Connectivity Error: Git",
-            "not a git repository": "Application Error: Git",
+            "not a git repository": "Connectivity Error: Git",
             "the remote end hung up unexpectedly": "Application Error: Git",
             "unable to access 'https://gitlab.devtools.intel.com": "Connectivity Error: Git",
             "gitlab is not responding": "Connectivity Error: Git",
@@ -239,6 +239,7 @@
             ".git not found": "Configuration Error: Git",
             "fatal: cannot obtain manifest https://git": "Configuration Error: Git",
             "error: cannot fetch": "Connectivity Error: Git",
+            "fatal: could not create work tree": "Connectivity Error: Git",
             
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "Artifactory Related Error",
             "artifact error": "Connectivity Error: Artifactory",

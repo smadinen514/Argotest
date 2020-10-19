@@ -81,7 +81,7 @@
             "error 3000",
             "build failed",
             "this is a comment to segmentized common error type to be used for different error category - application error type",
-            "[error] kwadmin:",
+            "[klocwork] [error]",
             "[protex] [error]",
             "server error",
             "connection error sending email",

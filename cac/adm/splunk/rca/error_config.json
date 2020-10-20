@@ -284,6 +284,7 @@
             "error occurred during build: connection to https://klocwork": "Connectivity Error: Klocwork",
             "kwinject: not found": "Application Error: Klocwork",
             "error occurred during build: could not connect to https://klocwork": "Connectivity Error: Klocwork",
+            "returned non-zero exit status 1": "Configuration Error: Klocwork",
             
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "Jenkins Related Error",
             "couldn't find any revision to build": "Configuration Error: Jenkins",
@@ -296,6 +297,8 @@
             "[bdba] [error] httperror: 502 - invalid responses from another server/proxy.": "Connectivity Error: BDBA",
             "[bdba] [error] httperror: 404 - nothing matches the given uri": "Application Error: BDBA",
             "[bdba] [error] httperror: 503 - the server cannot process the request due to a high load": "Application Error: BDBA",
+            "[bdba] [error] httperror: 409 - request conflict": "Application Error: BDBA",
+            "[bdba] [error] httperror: 500 - server got itself in trouble": "Application Error: BDBA",
             "urlerror: [errno 10054] an existing connection was forcibly closed": "Connectivity Error: BDBA",
             "urlerror: [errno 104] connection reset by peer": "Connectivity Error: BDBA",
             "binary scan failed to complete": "Connectivity Error: BDBA",
@@ -436,7 +439,8 @@
             "/makefile:",
             "error: script returned exit code 1",
             "java.io.ioexception: could not checkout",
-            "warn : problem with id"
+            "warn : problem with id",
+            "failed with --ignore mode enabled"
         ]
     }
 }

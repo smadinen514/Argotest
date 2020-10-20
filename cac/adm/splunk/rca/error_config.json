@@ -65,7 +65,7 @@
             "java.io.ioexception",
             "java.lang.exception",
             "http error 404",
-            "this is a comment to segmentized common error type to be used for different error category - Developer Error: Compilation type",
+            "this is a comment to segmentized common error type to be used for different error category - compilation error type",
             "no rule to make target",
             "script returned exit code 1",
             "makefile:",

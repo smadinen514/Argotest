@@ -291,6 +291,7 @@
             "groovy.lang.missingpropertyexception": "Configuration Error: Jenkins",
             "errorsexception: startup failed": "Configuration Error: Jenkins",
             "error when executing failure post condition": "Configuration Error: Jenkins",
+            "docker: error response from daemon: pull access denied": "Configuration Error: Jenkins",
             
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "BDBA Related Error",
             "[bdba] [error] httperror: 401 - no permission": "Application Error: BDBA",

@@ -374,6 +374,7 @@
             "error: the process \"python.exe\" not found": "System Error",
             "no space left on device": "System Error",
             "preauthentication failed while getting initial credentials": "System Error",
+            "disk quota exceeded": "System Error",
             "java.io.ioexception: unable to create live filepath": "System Error"
         },
         

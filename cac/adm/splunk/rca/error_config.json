@@ -444,7 +444,9 @@
             "java.io.ioexception: could not checkout",
             "warn : problem with id",
             "failed with --ignore mode enabled",
-            "kconflicting types for â"
+            "kconflicting types for â",
+            "non-zero exit code of the clef",
+            "non-zero exit code of the kwcc"
         ]
     }
 }

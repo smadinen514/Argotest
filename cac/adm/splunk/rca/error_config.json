@@ -279,7 +279,7 @@
             "source list is empty": "Configuration Error: Klocwork",
             "kwadmin: authentication failed": "Configuration Error: Klocwork",
             "rt.jar: error reading zip file": "Connectivity Error: Klocwork",
-            "error occurred during build: c/c++ defects detection stage failed": "Configuration Error: Klocwork",
+            "error occurred during build: c/c++ defects detection stage failed": "Application Error: Klocwork",
             "error occurred during build: the server project configuration": "Configuration Error: Klocwork",
             "error occurred during build: connection to https://klocwork": "Connectivity Error: Klocwork",
             "kwinject: not found": "Application Error: Klocwork",

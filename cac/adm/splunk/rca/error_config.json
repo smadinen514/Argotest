@@ -95,7 +95,8 @@
             "gitlab error",
             "error is not recoverable",
             "hsdes id is not given",
-            "kwinject: not found"
+            "kwinject: not found",
+            "kwadmin: "
         ],
         
         "error_category": {

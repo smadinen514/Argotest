@@ -96,6 +96,8 @@
             "error is not recoverable",
             "hsdes id is not given",
             "kwinject: not found",
+            "error: invalid requirement",
+            "kwdeploy: connection to",
             "kwadmin: "
         ],
         
@@ -286,6 +288,7 @@
             "kwinject: not found": "Application Error: Klocwork",
             "error occurred during build: could not connect to https://klocwork": "Connectivity Error: Klocwork",
             "returned non-zero exit status 1": "Configuration Error: Klocwork",
+            "kwdeploy: connection to": "Connectivity Error: Klocwork",
             
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "Jenkins Related Error",
             "couldn't find any revision to build": "Configuration Error: Jenkins",
@@ -332,6 +335,7 @@
             "standard_init_linux.go:185: exec user process caused": "Configuration Error: Snyk",
             "config.json does not exist": "Configuration Error: Snyk",
             "connection failed [ip:": "Connectivity Error: Snyk",
+            "invalid requirement": "Configuration Error: Snyk",
             
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "HSDES Related Error",
             "keyerror:": "Application Error: HSDES",

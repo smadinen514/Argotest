@@ -98,7 +98,8 @@
             "kwinject: not found",
             "error: invalid requirement",
             "kwdeploy: connection to",
-            "kwadmin: "
+            "kwadmin: ",
+            "errorlevel=1"
         ],
         
         "error_category": {
@@ -210,6 +211,7 @@
             "traceback (most recent call last):": "Developer Error: Compilation",
             "error 404: not found": "Developer Error: Compilation",
             "http error 404 client error: not found for url": "Developer Error: Compilation",
+            "errorlevel=1": "Developer Error: Compilation",
             
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "Git Related Error",
             "gitlab error": "Application Error: Git",
@@ -451,7 +453,8 @@
             "failed with --ignore mode enabled",
             "kconflicting types for â",
             "non-zero exit code of the clef",
-            "non-zero exit code of the kwcc"
+            "non-zero exit code of the kwcc",
+            "fatal: pack has bad object at offset"
         ]
     }
 }

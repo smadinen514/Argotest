@@ -289,8 +289,9 @@
             "error occurred during build: connection to https://klocwork": "Connectivity Error: Klocwork",
             "kwinject: not found": "Application Error: Klocwork",
             "error occurred during build: could not connect to https://klocwork": "Connectivity Error: Klocwork",
-            "returned non-zero exit status 1": "Configuration Error: Klocwork",
+            "returned non-zero exit status 1": "Connectivity Error: Klocwork",
             "kwdeploy: connection to": "Connectivity Error: Klocwork",
+			"failed with --ignore mode enabled. please check": "Connectivity Error: Klocwork",
             
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "Jenkins Related Error",
             "couldn't find any revision to build": "Configuration Error: Jenkins",
@@ -450,7 +451,6 @@
             "error: script returned exit code 1",
             "java.io.ioexception: could not checkout",
             "warn : problem with id",
-            "failed with --ignore mode enabled",
             "kconflicting types for â",
             "non-zero exit code of the clef",
             "non-zero exit codes of the kwcc",

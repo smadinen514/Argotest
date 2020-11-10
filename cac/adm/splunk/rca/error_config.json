@@ -453,8 +453,10 @@
             "failed with --ignore mode enabled",
             "kconflicting types for â",
             "non-zero exit code of the clef",
+            "non-zero exit codes of the kwcc",
             "non-zero exit code of the kwcc",
-            "fatal: pack has bad object at offset"
+            "fatal: pack has bad object at offset",
+            "internal error: could not collect string search hit data"
         ]
     }
 }

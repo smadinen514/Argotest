@@ -1,13 +1,15 @@
 {
 "intents":
     {
-        "first_level": [
+        "keyword": [
             "this is a comment to segmentized common error type to be used for different error category - pre-requisite",
             "running on ",
             "this is a comment to segmentized common error type to be used for different error category - generic error type",
             "fetcher failure",
             "failure post condition",
             "link failure",
+            "undefined",
+            "connection failed",
             "expectation failed",
             "patch failed",
             "binary scan failed",
@@ -96,15 +98,13 @@
             "error is not recoverable",
             "hsdes id is not given",
             "kwinject: not found",
-            "error: invalid requirement",
-            "kwdeploy: connection to",
             "kwadmin: ",
             "errorlevel=1",
             "file \"vscanner.py\", line",
             "no such file or directory",
             "syntaxerror"
         ],
-        
+
         "error_category": {
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "Compilation Related Error",
             "nmake : fatal error" : "Developer Error: Compilation",
@@ -194,11 +194,10 @@
             "build failed": "Developer Error: Compilation",
             "no rule to make target": "Developer Error: Compilation",
             "build stopped: subcommand failed": "Developer Error: Compilation",
-            "[drivers/misc/xlink-core/xlink.ko] undefined!": "Developer Error: Compilation",
+            "\\[drivers/misc/xlink-core/xlink.ko\\] undefined!": "Developer Error: Compilation",
             "debug build: file does not exists!": "Developer Error: Compilation",
-            "error messages shown, returning a non-zero exit code": "Developer Error: Compilation",
+            "error * shown, returning a non-zero exit code": "Developer Error: Compilation",
             "does not exist! Please check bblayers": "Developer Error: Compilation",
-            "error message shown, returning a non-zero exit code": "Developer Error: Compilation",
             "integration for audio failed": "Developer Error: Compilation",
             "script_error= 1": "Developer Error: Compilation",
             "failed to build": "Developer Error: Compilation",
@@ -208,15 +207,15 @@
             "not found in packages path": "Developer Error: Compilation",
             "fatal: remote upstream already exists": "Developer Error: Compilation",
             "patch failed": "Developer Error: Compilation",
-            "execution is failed (exit code: 1)": "Developer Error: Compilation",
+            "execution is failed \\(exit code: 1\\)": "Developer Error: Compilation",
             "bsp build: failed": "Developer Error: Compilation",
             "daily build: failed": "Developer Error: Compilation",
-            "traceback (most recent call last):": "Developer Error: Compilation",
+            "traceback \\(most recent call last\\):": "Developer Error: Compilation",
             "error 404: not found": "Developer Error: Compilation",
             "http error 404 client error: not found for url": "Developer Error: Compilation",
             "errorlevel=1": "Developer Error: Compilation",
             "syntaxerror: invalid syntax": "Developer Error: Compilation",
-            
+
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "Git Related Error",
             "gitlab error": "Application Error: Git",
             "could not read from remote repository": "Connectivity Error: Git",
@@ -249,7 +248,7 @@
             "error: cannot fetch": "Connectivity Error: Git",
             "fatal: could not create work tree": "Connectivity Error: Git",
             "fatal: failed to unpack tree object": "Configuration Error: Git",
-            
+
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "Artifactory Related Error",
             "artifact error": "Connectivity Error: Artifactory",
             "uploading artifacts": "Connectivity Error: Artifactory",
@@ -274,7 +273,7 @@
             "git credentials for https://ubit-artifactory": "Application Error: Artifactory",
             "error occurred while downloading http://jf": "Connectivity Error: Artifactory",
             "java.io.ioexception: could not create or write to file": "Connectivity Error: Artifactory",
-            
+
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "Klocwork Related Error",
             "no connection could be made because the target machine actively refused it": "Connectivity Error: Klocwork",
             "cannot locate kw tools on system": "Configuration Error: klocwork",
@@ -288,73 +287,73 @@
             "source list is empty": "Configuration Error: Klocwork",
             "kwadmin: authentication failed": "Configuration Error: Klocwork",
             "rt.jar: error reading zip file": "Connectivity Error: Klocwork",
-            "error occurred during build: c/c++ defects detection stage failed": "Application Error: Klocwork",
+            "error occurred during build: c/c\\+\\+ defects detection stage failed": "Application Error: Klocwork",
             "error occurred during build: the server project configuration": "Configuration Error: Klocwork",
             "error occurred during build: connection to https://klocwork": "Connectivity Error: Klocwork",
             "kwinject: not found": "Application Error: Klocwork",
             "error occurred during build: could not connect to https://klocwork": "Connectivity Error: Klocwork",
-            "returned non-zero exit status 1": "Connectivity Error: Klocwork",
+            "returned non-zero exit status 1": "Configuration Error: Klocwork",
             "kwdeploy: connection to": "Connectivity Error: Klocwork",
             "failed with --ignore mode enabled. please check": "Connectivity Error: Klocwork",
-            
+
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "Jenkins Related Error",
             "couldn't find any revision to build": "Configuration Error: Jenkins",
             "groovy.lang.missingpropertyexception": "Configuration Error: Jenkins",
             "errorsexception: startup failed": "Configuration Error: Jenkins",
             "error when executing failure post condition": "Configuration Error: Jenkins",
             "docker: error response from daemon: pull access denied": "Configuration Error: Jenkins",
-            
+
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "BDBA Related Error",
-            "[bdba] [error] httperror: 401 - no permission": "Application Error: BDBA",
-            "[bdba] [error] httperror: 502 - invalid responses from another server/proxy.": "Connectivity Error: BDBA",
-            "[bdba] [error] httperror: 404 - nothing matches the given uri": "Application Error: BDBA",
-            "[bdba] [error] httperror: 503 - the server cannot process the request due to a high load": "Application Error: BDBA",
-            "[bdba] [error] httperror: 409 - request conflict": "Application Error: BDBA",
-            "[bdba] [error] httperror: 500 - server got itself in trouble": "Application Error: BDBA",
-            "urlerror: [errno 10054] an existing connection was forcibly closed": "Connectivity Error: BDBA",
-            "urlerror: [errno 104] connection reset by peer": "Connectivity Error: BDBA",
+            "\\[bdba\\] \\[error\\] httperror: 401 - no permission": "Application Error: BDBA",
+            "\\[bdba\\] \\[error\\] httperror: 502 - invalid responses from another server/proxy.": "Connectivity Error: BDBA",
+            "\\[bdba\\] \\[error\\] httperror: 404 - nothing matches the given uri": "Application Error: BDBA",
+            "\\[bdba\\] \\[error\\] httperror: 503 - the server cannot process the request due to a high load": "Application Error: BDBA",
+            "\\[bdba\\] \\[error\\] httperror: 409 - request conflict": "Application Error: BDBA",
+            "\\[bdba\\] \\[error\\] httperror: 500 - server got itself in trouble": "Application Error: BDBA",
+            "urlerror: \\[errno 10054\\] an existing connection was forcibly closed": "Connectivity Error: BDBA",
+            "urlerror: \\[errno 104\\] connection reset by peer": "Connectivity Error: BDBA",
             "binary scan failed to complete": "Connectivity Error: BDBA",
             "results is not yet ready": "Application Error: BDBA",
             "scanning failed": "Application Error: BDBA",
-            "[errno 111] connection refused": "Connectivity Error: BDBA",
+            "\\[errno 111\\] connection refused": "Connectivity Error: BDBA",
             "response got: unauthorized": "Connectivity Error: BDBA",
             "hudson.AbortException: script returned exit code 1": "Connectivity Error: BDBA",
             "error is not recoverable: exiting now": "Application Error: BDBA",
-            
+
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "EMAIL Error",
             "connection error sending email": "Connectivity Error: EMAIL",
             "failed after second try sending email": "Connectivity Error: EMAIL",
-            
+
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "PROTEXIP Related Error",
             "bdstool: scan failed": "Application Error: Protex",
             "bdstool: login failed for": "Connectivity Error: Protex",
             "bom list error": "Application Error: Protex",
             "bdstool: command failed:": "Application Error: Protex",
             "protex project name": "Configuration Error: Protex",
-            "[protex] [error] other: authenticated ****@intel.com on": "Application Error: Protex",
-            "[protex] [error] other: ignore list": "Configuration Error: Protex",
-            "[protex] [error] syntax:": "Configuration Error: Protex",
-            
+            "\\[protex\\] \\[error\\] other: authenticated \\*\\*\\*\\*@intel.com on": "Application Error: Protex",
+            "\\[protex\\] \\[error\\] other: ignore list": "Configuration Error: Protex",
+            "\\[protex\\] \\[error\\] syntax:": "Configuration Error: Protex",
+
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "SNYK Related Error",
-            "internal error (reference:": "Application Error: Snyk",
+            "internal error \\(reference:": "Application Error: Snyk",
             "copy failed: stat /docker": "Configuration Error: Snyk",
             "docker error: image was not found locally and pulling failed": "Configuration Error: Snyk",
             "standard_init_linux.go:185: exec user process caused": "Configuration Error: Snyk",
             "config.json does not exist": "Configuration Error: Snyk",
-            "connection failed [ip:": "Connectivity Error: Snyk",
+            "connection failed \\[ip:": "Connectivity Error: Snyk",
             "invalid requirement": "Configuration Error: Snyk",
-            
+
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "HSDES Related Error",
             "keyerror:": "Application Error: HSDES",
             "fail to update hsdes field": "Application Error: HSDES",
             "hsdes id is not given": "Developer Error: HSDES",
-            
+
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "ABI Related Error",
             "abi_warning:": "Application Error: ABI",
             "raise abiexception": "Application Error: ABI",
             "abi_exception": "Application Error: ABI",
             "failed to run ticgen:": "Application Error: ABI",
-            
+
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "Generic Application Error",
             "nameerror:": "Application Error",
             "typeerror:": "Application Error",
@@ -362,7 +361,7 @@
             "abortexception:": "Application Error",
             "configuration error": "Application Error",
             "server error": "Application Error",
-            
+
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "Generic Connectivity Error",
             "connectionerror": "Connectivity Error",
             "connectionrefusederror": "Connectivity Error",
@@ -374,7 +373,7 @@
             "internal_server_error": "Connectivity Error",
             "communications link failure": "Connectivity Error",
             "http response status 500": "Connectivity Error",
-            
+
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "Generic System Error",
             "directory is not empty": "System Error",
             "cannot load": "System Error",
@@ -388,12 +387,12 @@
             "preauthentication failed while getting initial credentials": "System Error",
             "disk quota exceeded": "System Error",
             "java.io.ioexception: unable to create live filepath": "System Error",
-            
+
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "Virus Scan Error",
             "file \"vscanner.py\", line": "Configuration Error: Virus Scan"
         },
-        
-        "patterns": [
+
+        "exclusion": [
             "abi_info:",
             "[debug]",
             "commit message:",
@@ -458,9 +457,9 @@
             "error: script returned exit code 1",
             "java.io.ioexception: could not checkout",
             "warn : problem with id",
+            "failed with --ignore mode enabled",
             "kconflicting types for â",
             "non-zero exit code of the clef",
-            "non-zero exit codes of the kwcc",
             "non-zero exit code of the kwcc",
             "fatal: pack has bad object at offset",
             "internal error: could not collect string search hit data"

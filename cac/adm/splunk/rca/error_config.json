@@ -102,6 +102,7 @@
             "errorlevel=1",
             "file \"vscanner.py\", line",
             "no such file or directory",
+            "the license for visual studio expires",
             "syntaxerror"
         ],
 
@@ -387,6 +388,9 @@
             "preauthentication failed while getting initial credentials": "System Error",
             "disk quota exceeded": "System Error",
             "java.io.ioexception: unable to create live filepath": "System Error",
+            
+            "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "Visual Studio Error",
+            "the license for visual studio expires": "Configuration Error: Visual Studio",
 
             "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "Virus Scan Error",
             "file \"vscanner.py\", line": "Configuration Error: Virus Scan"

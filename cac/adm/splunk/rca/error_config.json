@@ -197,7 +197,7 @@
             "build stopped: subcommand failed": "Developer Error: Compilation",
             "\\[drivers/misc/xlink-core/xlink.ko\\] undefined!": "Developer Error: Compilation",
             "debug build: file does not exists!": "Developer Error: Compilation",
-            "error * shown, returning a non-zero exit code": "Developer Error: Compilation",
+            "error.*.shown, returning a non-zero exit code": "Developer Error: Compilation",
             "does not exist! Please check bblayers": "Developer Error: Compilation",
             "integration for audio failed": "Developer Error: Compilation",
             "script_error= 1": "Developer Error: Compilation",

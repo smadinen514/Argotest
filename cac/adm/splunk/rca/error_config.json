@@ -359,7 +359,8 @@
             "hsdes id is not given": "Developer Error: HSDES",
             "hsdes id is invalid": "Developer Error: HSDES",
             "hsdes id is not belong to iot_platf tenant": "Developer Error: HSDES",
-            "please use ; for multiple hsdes id": "Developer Error: HSDES",
+            "please use semicolon as a separator for multiple hsdes id": "Developer Error: HSDES",
+            "do not end with semicolon": "Developer Error: HSDES",
             
             "ABI RELATED ERROR": "ABI Related Error",
             

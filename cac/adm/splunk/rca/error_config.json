@@ -83,6 +83,7 @@
             "[klocwork] [error]",
             "[protex] [error]",
             "[bdba] [error]",
+            "[hsdes-gitlab] [error]",
             "server error",
             "connection error sending email",
             "results is not yet ready",
@@ -106,7 +107,9 @@
         ],
 
         "error_category": {
-            "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "Compilation Related Error",
+            
+            "COMPILATION RELATED ERROR": "Compilation Related Error",
+            
             "nmake : fatal error" : "Developer Error: Compilation",
             "link : fatal error" : "Developer Error: Compilation",
             "error while encapsulate fd image": "Developer Error: Compilation",
@@ -216,7 +219,8 @@
             "errorlevel=1": "Developer Error: Compilation",
             "syntaxerror: invalid syntax": "Developer Error: Compilation",
 
-            "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "Git Related Error",
+            "GIT RELATED ERROR": "Git Related Error",
+            
             "gitlab error": "Application Error: Git",
             "could not read from remote repository": "Connectivity Error: Git",
             "not a git repository": "Connectivity Error: Git",
@@ -233,7 +237,6 @@
             "giterror": "Connectivity Error: Git",
             "error fetching remote": "Connectivity Error: Git",
             "an optional update for edkrepo is available and can be installed using: edkrepo update": "Configuration Error: Git",
-            "fatal: remote upstream already exists": "Configuration Error: Git",
             "error cloning remote repo": "Connectivity Error: Git",
             "fatal: unable to read tree": "Configuration Error: Git",
             "fatal: reference is not a tree": "Configuration Error: Git",
@@ -249,7 +252,8 @@
             "fatal: could not create work tree": "Connectivity Error: Git",
             "fatal: failed to unpack tree object": "Configuration Error: Git",
 
-            "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "Artifactory Related Error",
+            "ARTIFACTORY RELATED ERROR": "Artifactory Related Error",
+            
             "artifact error": "Connectivity Error: Artifactory",
             "uploading artifacts": "Connectivity Error: Artifactory",
             "expectation failed": "Application Error: Artifactory",
@@ -274,7 +278,8 @@
             "error occurred while downloading http://jf": "Connectivity Error: Artifactory",
             "java.io.ioexception: could not create or write to file": "Connectivity Error: Artifactory",
 
-            "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "Klocwork Related Error",
+            "KLOCWORK RELATED ERROR": "Klocwork Related Error",
+            
             "no connection could be made because the target machine actively refused it": "Connectivity Error: Klocwork",
             "cannot locate kw tools on system": "Configuration Error: klocwork",
             "cannot locate kwdeployexe on system": "Configuration Error: Klocwork",
@@ -296,14 +301,16 @@
             "kwdeploy: connection to": "Connectivity Error: Klocwork",
             "failed with --ignore mode enabled. please check": "Connectivity Error: Klocwork",
 
-            "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "Jenkins Related Error",
+            "JENKINS RELATED ERROR": "Jenkins Related Error",
+            
             "couldn't find any revision to build": "Configuration Error: Jenkins",
             "groovy.lang.missingpropertyexception": "Configuration Error: Jenkins",
             "errorsexception: startup failed": "Configuration Error: Jenkins",
             "error when executing failure post condition": "Configuration Error: Jenkins",
             "docker: error response from daemon: pull access denied": "Configuration Error: Jenkins",
 
-            "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "BDBA Related Error",
+            "BDBA RELATED ERROR": "BDBA Related Error",
+            
             "\\[bdba\\] \\[error\\] httperror: 401 - no permission": "Application Error: BDBA",
             "\\[bdba\\] \\[error\\] httperror: 502 - invalid responses from another server/proxy.": "Connectivity Error: BDBA",
             "\\[bdba\\] \\[error\\] httperror: 404 - nothing matches the given uri": "Application Error: BDBA",
@@ -320,11 +327,13 @@
             "hudson.AbortException: script returned exit code 1": "Connectivity Error: BDBA",
             "error is not recoverable: exiting now": "Application Error: BDBA",
 
-            "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "EMAIL Error",
+            "EMAIL RELATED ERROR": "EMAIL Error",
+            
             "connection error sending email": "Connectivity Error: EMAIL",
             "failed after second try sending email": "Connectivity Error: EMAIL",
 
-            "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "PROTEXIP Related Error",
+            "PROTEX IP RELATED ERROR": "PROTEXIP Related Error",
+            
             "bdstool: scan failed": "Application Error: Protex",
             "bdstool: login failed for": "Connectivity Error: Protex",
             "bom list error": "Application Error: Protex",
@@ -334,7 +343,8 @@
             "\\[protex\\] \\[error\\] other: ignore list": "Configuration Error: Protex",
             "\\[protex\\] \\[error\\] syntax:": "Configuration Error: Protex",
 
-            "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "SNYK Related Error",
+            "SNYK RELATED ERROR": "SNYK Related Error",
+            
             "internal error \\(reference:": "Application Error: Snyk",
             "copy failed: stat /docker": "Configuration Error: Snyk",
             "docker error: image was not found locally and pulling failed": "Configuration Error: Snyk",
@@ -343,18 +353,26 @@
             "connection failed \\[ip:": "Connectivity Error: Snyk",
             "invalid requirement": "Configuration Error: Snyk",
 
-            "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "HSDES Related Error",
+            "HSDES RELATED ERROR": "HSDES Related Error",
+            
             "keyerror:": "Application Error: HSDES",
             "fail to update hsdes field": "Application Error: HSDES",
+            "fail to post comment on gitlab mr": "Application Error: HSDES",
             "hsdes id is not given": "Developer Error: HSDES",
-
-            "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "ABI Related Error",
+            "hsdes id is invalid": "Developer Error: HSDES",
+            "hsdes id is is not belong to iot_platf tenant": "Developer Error: HSDES",
+            "please use ; for multiple hsdes id": "Developer Error: HSDES",
+            "hsdes id is not given or in a wrong format": "Developer Error: HSDES",
+            
+            "ABI RELATED ERROR": "ABI Related Error",
+            
             "abi_warning:": "Application Error: ABI",
             "raise abiexception": "Application Error: ABI",
             "abi_exception": "Application Error: ABI",
             "failed to run ticgen:": "Application Error: ABI",
 
-            "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "Generic Application Error",
+            "GENERIC APPLICATION ERROR": "Generic Application Error",
+            
             "nameerror:": "Application Error",
             "typeerror:": "Application Error",
             "attributeerror: ": "Application Error",
@@ -362,7 +380,8 @@
             "configuration error": "Application Error",
             "server error": "Application Error",
 
-            "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "Generic Connectivity Error",
+            "GENERIC CONNECTIVITY ERROR": "Generic Connectivity Error",
+            
             "connectionerror": "Connectivity Error",
             "connectionrefusederror": "Connectivity Error",
             "failed: connection":"Connectivity Error",
@@ -374,7 +393,8 @@
             "communications link failure": "Connectivity Error",
             "http response status 500": "Connectivity Error",
 
-            "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "Generic System Error",
+            "GENERIC SYSTEM ERROR": "Generic System Error",
+            
             "directory is not empty": "System Error",
             "cannot load": "System Error",
             "mandatory update for edkrepo": "System Error",
@@ -388,10 +408,12 @@
             "disk quota exceeded": "System Error",
             "java.io.ioexception: unable to create live filepath": "System Error",
             
-            "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "Visual Studio Error",
+            "VISUAL STUDIO ERROR": "Visual Studio Error",
+            
             "the license for visual studio expires": "Configuration Error: Visual Studio",
 
-            "This is a comment which were used to segmentized the JSON for error category. It is impossible this line will match any error mesg": "Virus Scan Error",
+            "VIRUS SCAN ERROR": "Virus Scan Error",
+            
             "file \"vscanner.py\", line": "Configuration Error: Virus Scan"
         },
 

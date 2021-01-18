@@ -356,7 +356,6 @@
             "HSDES RELATED ERROR": "HSDES Related Error",
             
             "keyerror:": "Application Error: HSDES",
-            "fail to update hsdes field": "Application Error: HSDES",
             "hsdes id is not given": "Developer Error: HSDES",
             "hsdes id is invalid": "Developer Error: HSDES",
             "hsdes id is is not belong to iot_platf tenant": "Developer Error: HSDES",

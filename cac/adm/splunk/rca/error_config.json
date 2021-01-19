@@ -103,7 +103,8 @@
             "file \"vscanner.py\", line",
             "no such file or directory",
             "the license for visual studio expires",
-            "syntaxerror"
+            "syntaxerror",
+            "bad api request"
         ],
 
         "error_category": {
@@ -352,6 +353,7 @@
             "config.json does not exist": "Configuration Error: Snyk",
             "connection failed \\[ip:": "Connectivity Error: Snyk",
             "invalid requirement": "Configuration Error: Snyk",
+            "bad api request, please contact support@snyk.io for assistance": "Application Error: Snyk",
 
             "HSDES RELATED ERROR": "HSDES Related Error",
             

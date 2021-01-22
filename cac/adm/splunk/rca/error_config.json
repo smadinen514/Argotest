@@ -341,6 +341,7 @@
             "bdstool: command failed:": "Application Error: Protex",
             "protex project name": "Configuration Error: Protex",
             "\\[protex\\] \\[error\\] other: authenticated \\*\\*\\*\\*@intel.com on": "Application Error: Protex",
+            "\\[protex\\] \\[error\\] other: exception in thread": "Application Error: Protex",
             "\\[protex\\] \\[error\\] other: ignore list": "Configuration Error: Protex",
             "\\[protex\\] \\[error\\] syntax:": "Configuration Error: Protex",
 

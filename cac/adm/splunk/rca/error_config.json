@@ -104,7 +104,8 @@
             "no such file or directory",
             "the license for visual studio expires",
             "syntaxerror",
-            "bad api request"
+            "bad api request",
+            "sudo: /usr/bin/sudo"
         ],
 
         "error_category": {
@@ -408,6 +409,7 @@
             "preauthentication failed while getting initial credentials": "System Error",
             "disk quota exceeded": "System Error",
             "java.io.ioexception: unable to create live filepath": "System Error",
+            "sudo: /usr/bin/sudo": "System Error",
             
             "VISUAL STUDIO ERROR": "Visual Studio Error",
             

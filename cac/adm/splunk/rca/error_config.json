@@ -65,6 +65,7 @@
             "abiexception",
             "java.io.ioexception",
             "java.lang.exception",
+            "jenkins.util.io.compositeioexception",
             "http error 404",
             "this is a comment to segmentized common error type to be used for different error category - compilation error type",
             "no rule to make target",
@@ -253,6 +254,7 @@
             "error: cannot fetch": "Connectivity Error: Git",
             "fatal: could not create work tree": "Connectivity Error: Git",
             "fatal: failed to unpack tree object": "Configuration Error: Git",
+            "fatal: tag .*. ": "Configuration Error: Git",
 
             "ARTIFACTORY RELATED ERROR": "Artifactory Related Error",
             
@@ -272,6 +274,7 @@
             "failed to deploy file. status code: 502": "Connectivity Error: Artifactory",
             "failed to deploy file. status code: 401": "Connectivity Error: Artifactory",
             "failed to deploy file. status code: 403": "Connectivity Error: Artifactory",
+            "failed to deploy file. status code: 404": "Application Error: Artifactory",
             "failed to deploy file. status code: 500": "Application Error: Artifactory",
             "failed to deploy file. status code: 503": "Application Error: Artifactory",
             "caused java.io.ioexception": "Application Error: Artifactory",
@@ -409,6 +412,7 @@
             "preauthentication failed while getting initial credentials": "System Error",
             "disk quota exceeded": "System Error",
             "java.io.ioexception: unable to create live filepath": "System Error",
+            "jenkins.util.io.compositeioexception: unable to delete": "System Error",
             "sudo: /usr/bin/sudo": "System Error",
             
             "VISUAL STUDIO ERROR": "Visual Studio Error",

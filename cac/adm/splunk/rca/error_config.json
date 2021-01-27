@@ -306,7 +306,7 @@
             "error occurred during build: connection to https://klocwork": "Connectivity Error: Klocwork",
             "kwinject: not found": "Application Error: Klocwork",
             "error occurred during build: could not connect to https://klocwork": "Connectivity Error: Klocwork",
-            "returned non-zero exit status 1": "Configuration Error: Klocwork",
+            "returned non-zero exit status": "Configuration Error: Klocwork",
             "kwdeploy: connection to": "Connectivity Error: Klocwork",
             "failed with --ignore mode enabled. please check": "Connectivity Error: Klocwork",
 
@@ -372,6 +372,7 @@
             "hsdes id is not belong to iot_platf tenant": "Developer Error: HSDES",
             "please use semicolon as a separator for multiple hsdes id": "Developer Error: HSDES",
             "do not end with semicolon": "Developer Error: HSDES",
+            "fail to update hsdes field": "Developer Error: HSDES",
             
             "ABI RELATED ERROR": "ABI Related Error",
             
@@ -500,8 +501,14 @@
             "kconflicting types for â",
             "non-zero exit code of the clef",
             "non-zero exit code of the kwcc",
+            "non-zero exit codes of the kwcc",
+            "non-zero exit codes of the clef",
             "fatal: pack has bad object at offset",
-            "internal error: could not collect string search hit data"
+            "internal error: could not collect string search hit data",
+            "conflictlib",
+            "klocwork table does not exists",
+            "no names found, cannot describe anything",
+            "embedconflict"
         ]
     }
 }

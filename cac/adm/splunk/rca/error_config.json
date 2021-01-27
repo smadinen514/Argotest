@@ -107,7 +107,8 @@
             "the license for visual studio expires",
             "syntaxerror",
             "bad api request",
-            "sudo: /usr/bin/sudo"
+            "sudo: /usr/bin/sudo",
+            "finished: success"
         ],
 
         "error_category": {
@@ -423,7 +424,9 @@
 
             "VIRUS SCAN ERROR": "Virus Scan Error",
             
-            "file \"vscanner.py\", line": "Configuration Error: Virus Scan"
+            "file \"vscanner.py\", line": "Configuration Error: Virus Scan",
+            
+            "finished: success": "Successful Jobs"
         },
 
         "exclusion": [

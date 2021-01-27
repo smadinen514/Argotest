@@ -108,7 +108,8 @@
             "syntaxerror",
             "bad api request",
             "sudo: /usr/bin/sudo",
-            "finished: success"
+            "finished: success",
+            "finished: aborted"
         ],
 
         "error_category": {
@@ -426,7 +427,8 @@
             
             "file \"vscanner.py\", line": "Configuration Error: Virus Scan",
             
-            "finished: success": "Successful Jobs"
+            "finished: success": "Successful Jobs",
+            "finished: aborted": "Aborted Jobs"
         },
 
         "exclusion": [

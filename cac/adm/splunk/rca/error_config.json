@@ -69,6 +69,7 @@
             "http error 404",
             "this is a comment to segmentized common error type to be used for different error category - compilation error type",
             "no rule to make target",
+            "no targets specified",
             "script returned exit code 1",
             "makefile:",
             "gnumakefile:",
@@ -113,6 +114,7 @@
             
             "COMPILATION RELATED ERROR": "Compilation Related Error",
             
+            "no targets specified and no makefile found" : "Developer Error: Compilation",
             "nmake : fatal error" : "Developer Error: Compilation",
             "link : fatal error" : "Developer Error: Compilation",
             "error while encapsulate fd image": "Developer Error: Compilation",

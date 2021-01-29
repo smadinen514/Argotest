@@ -109,7 +109,10 @@
             "bad api request",
             "sudo: /usr/bin/sudo",
             "finished: success",
-            "finished: aborted"
+            "finished: aborted",
+            "summary: there",
+            "error: missing workspace",
+            "java.lang.runtimeexception"
         ],
 
         "error_category": {
@@ -225,6 +228,8 @@
             "http error 404 client error: not found for url": "Developer Error: Compilation",
             "errorlevel=1": "Developer Error: Compilation",
             "syntaxerror: invalid syntax": "Developer Error: Compilation",
+            "summary: there were .*. error messages shown, returning a non-zero exit code": "Developer Error: Compilation",
+            "summary: there was 1 error message shown, returning a non-zero exit code": "Developer Error: Compilation",
 
             "GIT RELATED ERROR": "Git Related Error",
             
@@ -286,6 +291,7 @@
             "git credentials for https://ubit-artifactory": "Application Error: Artifactory",
             "error occurred while downloading http://jf": "Connectivity Error: Artifactory",
             "java.io.ioexception: could not create or write to file": "Connectivity Error: Artifactory",
+            "java.lang.runtimeexception: javax.net.ssl.sslhandshakeexception": "Connectivity Error: Artifactory",
 
             "KLOCWORK RELATED ERROR": "Klocwork Related Error",
             
@@ -335,6 +341,7 @@
             "response got: unauthorized": "Connectivity Error: BDBA",
             "hudson.AbortException: script returned exit code 1": "Connectivity Error: BDBA",
             "error is not recoverable: exiting now": "Application Error: BDBA",
+            "\\[bdba\\] \\[error\\] \\[bdba\\] \\[error\\] httperror: 401 - no permission": "Application Error: BDBA",
 
             "EMAIL RELATED ERROR": "EMAIL Error",
             
@@ -419,6 +426,7 @@
             "java.io.ioexception: unable to create live filepath": "System Error",
             "jenkins.util.io.compositeioexception: unable to delete": "System Error",
             "sudo: /usr/bin/sudo": "System Error",
+            "error: missing workspace .*. on": "System Error",
             
             "VISUAL STUDIO ERROR": "Visual Studio Error",
             

@@ -425,6 +425,7 @@
             "disk quota exceeded": "System Error",
             "java.io.ioexception: unable to create live filepath": "System Error",
             "jenkins.util.io.compositeioexception: unable to delete": "System Error",
+            "jenkins.util.io.compositeioexception: unable to remove directory": "System Error",
             "sudo: /usr/bin/sudo": "System Error",
             "error: missing workspace .*. on": "System Error",
             

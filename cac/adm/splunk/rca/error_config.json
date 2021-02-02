@@ -112,7 +112,8 @@
             "finished: aborted",
             "summary: there",
             "error: missing workspace",
-            "java.lang.runtimeexception"
+            "java.lang.runtimeexception",
+            "returned the following errors"
         ],
 
         "error_category": {
@@ -264,6 +265,7 @@
             "fatal: could not create work tree": "Connectivity Error: Git",
             "fatal: failed to unpack tree object": "Configuration Error: Git",
             "fatal: tag .*. ": "Configuration Error: Git",
+            "git clone .*. failed to complete successfully with the following errors": "Connectivity Error: Git",
 
             "ARTIFACTORY RELATED ERROR": "Artifactory Related Error",
             

@@ -113,7 +113,8 @@
             "summary: there",
             "error: missing workspace",
             "java.lang.runtimeexception",
-            "returned the following errors"
+            "returned the following errors",
+            "error: parseerror"
         ],
 
         "error_category": {
@@ -231,6 +232,7 @@
             "syntaxerror: invalid syntax": "Developer Error: Compilation",
             "summary: there were .*. error messages shown, returning a non-zero exit code": "Developer Error: Compilation",
             "summary: there was 1 error message shown, returning a non-zero exit code": "Developer Error: Compilation",
+            "error: parseerror in configuration": "Developer Error: Compilation",
 
             "GIT RELATED ERROR": "Git Related Error",
             

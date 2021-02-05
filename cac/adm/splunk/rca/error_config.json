@@ -28,6 +28,7 @@
             "failed to deploy",
             "failed to merge",
             "failed to search",
+            "failed to complete",
             "failed to search artifact",
             "failed to run",
             "failed: connection",

@@ -115,7 +115,8 @@
             "error: missing workspace",
             "java.lang.runtimeexception",
             "returned the following errors",
-            "error: parseerror"
+            "error: parseerror",
+            "unable to verify the first certificate"
         ],
 
         "error_category": {
@@ -347,6 +348,7 @@
             "hudson.AbortException: script returned exit code 1": "Connectivity Error: BDBA",
             "error is not recoverable: exiting now": "Application Error: BDBA",
             "\\[bdba\\] \\[error\\] \\[bdba\\] \\[error\\] httperror: 401 - no permission": "Application Error: BDBA",
+            "\\[bdba\\] \\[error\\] \\[bdba\\] \\[error\\] httperror: 503": "Application Error: BDBA",
 
             "EMAIL RELATED ERROR": "EMAIL Error",
             
@@ -375,6 +377,7 @@
             "connection failed \\[ip:": "Connectivity Error: Snyk",
             "invalid requirement": "Configuration Error: Snyk",
             "bad api request, please contact support@snyk.io for assistance": "Application Error: Snyk",
+            "unable to verify the first certificate": "Application Error: Snyk",
 
             "HSDES RELATED ERROR": "HSDES Related Error",
             

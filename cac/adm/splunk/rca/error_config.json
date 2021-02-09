@@ -116,7 +116,8 @@
             "java.lang.runtimeexception",
             "returned the following errors",
             "error: parseerror",
-            "unable to verify the first certificate"
+            "unable to verify the first certificate",
+            "docker: error"
         ],
 
         "error_category": {
@@ -330,6 +331,7 @@
             "errorsexception: startup failed": "Configuration Error: Jenkins",
             "error when executing failure post condition": "Configuration Error: Jenkins",
             "docker: error response from daemon: pull access denied": "Configuration Error: Jenkins",
+            "docker: error response from daemon: unauthorized": "Configuration Error: Jenkins",
 
             "BDBA RELATED ERROR": "BDBA Related Error",
             

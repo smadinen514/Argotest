@@ -117,7 +117,8 @@
             "returned the following errors",
             "error: parseerror",
             "unable to verify the first certificate",
-            "docker: error"
+            "docker: error",
+            "error: the following required tools"
         ],
 
         "error_category": {
@@ -237,6 +238,7 @@
             "summary: there was 1 error message shown, returning a non-zero exit code": "Developer Error: Compilation",
             "error: parseerror in configuration": "Developer Error: Compilation",
             "the previous cherry-pick is now empty, possibly due to conflict resolution": "Developer Error: Compilation",
+            "error: the following required tools": "Developer Error: Compilation",
 
             "GIT RELATED ERROR": "Git Related Error",
             
@@ -352,6 +354,7 @@
             "error is not recoverable: exiting now": "Application Error: BDBA",
             "\\[bdba\\] \\[error\\] \\[bdba\\] \\[error\\] httperror: 401 - no permission": "Application Error: BDBA",
             "\\[bdba\\] \\[error\\] \\[bdba\\] \\[error\\] httperror: 503": "Application Error: BDBA",
+            "\\[bdba\\] \\[error\\] \\[bdba\\] \\[error\\] httperror: 504": "Application Error: BDBA",
 
             "EMAIL RELATED ERROR": "EMAIL Error",
             

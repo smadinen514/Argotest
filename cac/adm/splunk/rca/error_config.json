@@ -240,7 +240,7 @@
             "error: parseerror in configuration": "Developer Error: Compilation",
             "the previous cherry-pick is now empty, possibly due to conflict resolution": "Developer Error: Compilation",
             "error: the following required tools": "Developer Error: Compilation",
-            "configure: error": "Developer Error: Compilation,
+            "configure: error": "Developer Error: Compilation",
 
             "GIT RELATED ERROR": "Git Related Error",
             

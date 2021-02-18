@@ -119,7 +119,7 @@
             "unable to verify the first certificate",
             "docker: error",
             "error: the following required tools",
-            "configure: error"
+            "configure: error",
             "[checkmarx] [error]"
         ],
 
@@ -455,9 +455,11 @@
             "file \"vscanner.py\", line": "Configuration Error: Virus Scan",
             
             "finished: success": "Successful Jobs",
-            "finished: aborted": "Aborted Jobs"
+            "finished: aborted": "Aborted Jobs",
             
-            "[CHECKMARX] [ERROR]: There is no queue scan or scanning is still in progress. You might need to increase timeout to get full result": "Application Error: Checkmarx"
+            "CHECKMARX SCAN ERROR": "Checkmarx Scan Error",
+            
+            "\\[checkmarx\\] \\[error\\]: there is no queue scan or scanning is still in progress. you might need to increase timeout to get full result": "Application Error: Checkmarx"
         },
 
         "exclusion": [

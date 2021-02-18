@@ -120,6 +120,7 @@
             "docker: error",
             "error: the following required tools",
             "configure: error"
+            "[checkmarx] [error]"
         ],
 
         "error_category": {
@@ -455,6 +456,8 @@
             
             "finished: success": "Successful Jobs",
             "finished: aborted": "Aborted Jobs"
+            
+            "[CHECKMARX] [ERROR]: There is no queue scan or scanning is still in progress. You might need to increase timeout to get full result": "Application Error: Checkmarx"
         },
 
         "exclusion": [

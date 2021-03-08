@@ -355,6 +355,7 @@
             "response got: unauthorized": "Connectivity Error: BDBA",
             "hudson.AbortException: script returned exit code 1": "Connectivity Error: BDBA",
             "error is not recoverable: exiting now": "Application Error: BDBA",
+            "\\[bdba\\] \\[error\\] group id cannot be found": "Application Error: BDBA",
             "\\[bdba\\] \\[error\\] \\[bdba\\] \\[error\\] httperror: 401 - no permission": "Application Error: BDBA",
             "\\[bdba\\] \\[error\\] \\[bdba\\] \\[error\\] httperror: 503": "Application Error: BDBA",
             "\\[bdba\\] \\[error\\] \\[bdba\\] \\[error\\] httperror: 504": "Application Error: BDBA",

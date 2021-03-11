@@ -120,7 +120,8 @@
             "docker: error",
             "error: the following required tools",
             "configure: error",
-            "[checkmarx] [error]"
+            "[checkmarx] [error]",
+            "rsync"
         ],
 
         "error_category": {

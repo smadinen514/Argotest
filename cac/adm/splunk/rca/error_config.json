@@ -121,7 +121,7 @@
             "error: the following required tools",
             "configure: error",
             "[checkmarx] [error]",
-            "rsync"
+            "rsync:"
         ],
 
         "error_category": {

@@ -121,6 +121,7 @@
             "error: the following required tools",
             "configure: error",
             "[checkmarx] [error]",
+            "insmod: error",
             "rsync:"
         ],
 
@@ -447,6 +448,7 @@
             "jenkins.util.io.compositeioexception: unable to remove directory": "System Error",
             "sudo: /usr/bin/sudo": "System Error",
             "error: missing workspace .*. on": "System Error",
+            "could not insert module": "System Error",
             
             "VISUAL STUDIO ERROR": "Visual Studio Error",
             

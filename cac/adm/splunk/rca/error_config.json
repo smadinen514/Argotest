@@ -339,6 +339,7 @@
             "error when executing failure post condition": "Configuration Error: Jenkins",
             "docker: error response from daemon: pull access denied": "Configuration Error: Jenkins",
             "docker: error response from daemon: unauthorized": "Configuration Error: Jenkins",
+            "util.jsontokener": "Configuration Error: Jenkins",
 
             "BDBA RELATED ERROR": "BDBA Related Error",
             

@@ -349,6 +349,7 @@
             "\\[bdba\\] \\[error\\] httperror: 503 - the server cannot process the request due to a high load": "Application Error: BDBA",
             "\\[bdba\\] \\[error\\] httperror: 409 - request conflict": "Application Error: BDBA",
             "\\[bdba\\] \\[error\\] httperror: 500 - server got itself in trouble": "Application Error: BDBA",
+            "urlerror: \\[errno -5\\] no address associated": "Connectivity Error: BDBA",
             "urlerror: \\[errno 10054\\] an existing connection was forcibly closed": "Connectivity Error: BDBA",
             "urlerror: \\[errno 104\\] connection reset by peer": "Connectivity Error: BDBA",
             "binary scan failed to complete": "Connectivity Error: BDBA",

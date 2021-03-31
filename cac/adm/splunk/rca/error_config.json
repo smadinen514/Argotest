@@ -524,6 +524,7 @@
             "basegpiocheckconflictlib",
             "xlink_secure_err",
             "package '",
+            "conflict.tmpl"
             "conflict.c",
             "caused: java.io.ioexception",
             "conflicts between attempted install",

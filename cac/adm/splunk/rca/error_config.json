@@ -122,6 +122,7 @@
             "configure: error",
             "[checkmarx] [error]",
             "insmod: error",
+            "failed on a \"put\",
             "rsync:"
         ],
 
@@ -340,6 +341,7 @@
             "docker: error response from daemon: pull access denied": "Configuration Error: Jenkins",
             "docker: error response from daemon: unauthorized": "Configuration Error: Jenkins",
             "util.jsontokener": "Configuration Error: Jenkins",
+            "with a status code of: 401": "Configuration Error: Jenkins",
 
             "BDBA RELATED ERROR": "BDBA Related Error",
             

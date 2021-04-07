@@ -31,6 +31,7 @@
             "failed to complete",
             "failed to search artifact",
             "failed to run",
+            "failed to get",
             "failed: connection",
             "error occurred for request",
             "patchset is failed",
@@ -386,6 +387,7 @@
             "SNYK RELATED ERROR": "SNYK Related Error",
             
             "internal error \\(reference:": "Application Error: Snyk",
+            "failed to get vulns": "Application Error: Snyk",
             "copy failed: stat /docker": "Configuration Error: Snyk",
             "docker error: image was not found locally and pulling failed": "Configuration Error: Snyk",
             "standard_init_linux.go:185: exec user process caused": "Configuration Error: Snyk",

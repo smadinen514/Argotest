@@ -123,6 +123,7 @@
             "configure: error",
             "[checkmarx] [error]",
             "insmod: error",
+            "ninja failed",
             "failed on a \"put\"",
             "rsync:"
         ],
@@ -246,6 +247,7 @@
             "the previous cherry-pick is now empty, possibly due to conflict resolution": "Developer Error: Compilation",
             "error: the following required tools": "Developer Error: Compilation",
             "configure: error": "Developer Error: Compilation",
+            "ninja failed with: exit status 1": "Developer Error: Compilation",
 
             "GIT RELATED ERROR": "Git Related Error",
             

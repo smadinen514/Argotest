@@ -532,6 +532,7 @@
             "xlink_secure_err",
             "package '",
             "conflict.tmpl",
+            "conflict.h",
             "conflict.c",
             "caused: java.io.ioexception",
             "conflicts between attempted install",

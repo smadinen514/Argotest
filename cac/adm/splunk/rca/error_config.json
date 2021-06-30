@@ -454,6 +454,7 @@
             "disk quota exceeded": "System Error",
             "process working directory .*. doesn't exist": "System Error",
             "java.io.ioexception: unable to create live filepath": "System Error",
+            "java.io.ioexception: .*. exist": "System Error",
             "jenkins.util.io.compositeioexception: unable to delete": "System Error",
             "jenkins.util.io.compositeioexception: unable to remove directory": "System Error",
             "sudo: /usr/bin/sudo": "System Error",

@@ -123,7 +123,6 @@
             "configure: error",
             "[checkmarx] [error]",
             "insmod: error",
-            "token",
             "ninja failed",
             "failed on a \"put\"",
             "rsync:"
@@ -476,8 +475,7 @@
             
             "CHECKMARX SCAN ERROR": "Checkmarx Scan Error",
             
-            "\\[checkmarx\\] \\[error\\]: there is no queue scan or scanning is still in progress. you might need to increase timeout to get full result": "Application Error: Checkmarx",
-            "\\['access_token'\\]": "Application Error: Checkmarx"
+            "\\[checkmarx\\] \\[error\\]: there is no queue scan or scanning is still in progress. you might need to increase timeout to get full result": "Application Error: Checkmarx"
         },
 
         "exclusion": [

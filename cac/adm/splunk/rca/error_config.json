@@ -125,6 +125,7 @@
             "insmod: error",
             "ninja failed",
             "failed on a \"put\"",
+            "klocwork_report.py",
             "rsync:"
         ],
 
@@ -335,6 +336,7 @@
             "kwdeploy: connection to": "Connectivity Error: Klocwork",
             "failed with --ignore mode enabled. please check": "Connectivity Error: Klocwork",
             "returned non-zero exit status": "Configuration Error: Klocwork",
+            "unable to connect to the klocwork server": "Application Error: Klocwork",
 
             "JENKINS RELATED ERROR": "Jenkins Related Error",
             

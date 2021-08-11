@@ -384,6 +384,7 @@
             "bdstool: login failed for": "Connectivity Error: Protex",
             "bom list error": "Application Error: Protex",
             "bdstool: command failed:": "Application Error: Protex",
+            "bdstool: Internal error:": "Application Error: Protex",
             "protex project name": "Configuration Error: Protex",
             "\\[protex\\] \\[error\\] other: authenticated \\*\\*\\*\\*@intel.com on": "Application Error: Protex",
             "\\[protex\\] \\[error\\] other: exception in thread": "Application Error: Protex",

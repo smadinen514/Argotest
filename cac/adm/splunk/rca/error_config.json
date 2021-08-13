@@ -478,6 +478,7 @@
             
             "CHECKMARX SCAN ERROR": "Checkmarx Scan Error",
             
+            "no project id capture. please check on iap id and branch id": "Application Error: Checkmarx",
             "\\[checkmarx\\] \\[error\\]: there is no queue scan or scanning is still in progress. you might need to increase timeout to get full result": "Application Error: Checkmarx"
         },
 
@@ -559,7 +560,8 @@
             "conflictlib",
             "klocwork table does not exists",
             "no names found, cannot describe anything",
-            "embedconflict"
+            "embedconflict",
+            "kwbuildproject"
         ]
     }
 }

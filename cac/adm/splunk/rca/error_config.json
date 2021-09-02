@@ -59,7 +59,6 @@
             "does not exist",
             "there are no nodes",
             "not recognized",
-            "conflict",
             "cannot stat",
             "test result",
             "connectionrefusederror",
@@ -125,7 +124,6 @@
             "insmod: error",
             "ninja failed",
             "failed on a \"put\"",
-            "klocwork_report.py",
             "rsync:"
         ],
 

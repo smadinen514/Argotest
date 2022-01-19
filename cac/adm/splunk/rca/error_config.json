@@ -371,7 +371,8 @@
             "\\[bdba\\] \\[error\\] \\[bdba\\] \\[error\\] httperror: 401 - no permission": "Application Error: BDBA",
             "\\[bdba\\] \\[error\\] \\[bdba\\] \\[error\\] httperror: 503": "Application Error: BDBA",
             "\\[bdba\\] \\[error\\] \\[bdba\\] \\[error\\] httperror: 504": "Application Error: BDBA",
-
+            "\\[bdba\\] \\[error\\] \\[bdba\\] \\[error\\] httperror: 415 - Entity body in unsupported format": "Application Error: BDBA",
+            
             "EMAIL RELATED ERROR": "EMAIL Error",
             
             "connection error sending email": "Connectivity Error: EMAIL",

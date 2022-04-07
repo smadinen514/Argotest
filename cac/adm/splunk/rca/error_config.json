@@ -422,7 +422,9 @@
             "abi_exception": "Application Error: ABI",
             "failed to run ticgen:": "Application Error: ABI",
             
-            "error: no such container": "Application Error: Container"
+            "DOCKER CONTAINER RELATED ERROR": "DOCKER CONTAINER Related Error",
+            
+            "error: no such container": "Application Error: Container",
 
             "GENERIC APPLICATION ERROR": "Generic Application Error",
             

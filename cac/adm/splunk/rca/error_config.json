@@ -124,7 +124,8 @@
             "insmod: error",
             "ninja failed",
             "failed on a \"put\"",
-            "rsync:"
+            "rsync:",
+            "error: no such container"
         ],
 
         "error_category": {
@@ -420,6 +421,8 @@
             "raise abiexception": "Application Error: ABI",
             "abi_exception": "Application Error: ABI",
             "failed to run ticgen:": "Application Error: ABI",
+            
+            "error: no such container": "Application Error: Container"
 
             "GENERIC APPLICATION ERROR": "Generic Application Error",
             

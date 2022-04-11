@@ -124,7 +124,8 @@
             "ninja failed",
             "failed on a \"put\"",
             "rsync:",
-            "error: no such container"
+            "error: no such container",
+            "suppressed: hudson.remoting"
         ],
 
         "error_category": {
@@ -247,11 +248,13 @@
             "error: the following required tools": "Developer Error: Compilation",
             "configure: error": "Developer Error: Compilation",
             "ninja failed with: exit status 1": "Developer Error: Compilation",
+            "fatal: couldn't find remote ref": "Developer Error: Compilation",
+            "could not read from remote repository": "Developer Error: Compilation",
+            "error: cannot fetch": "Developer Error: Compilation",
 
             "GIT RELATED ERROR": "Git Related Error",
             
             "gitlab error": "Application Error: Git",
-            "could not read from remote repository": "Connectivity Error: Git",
             "not a git repository": "Connectivity Error: Git",
             "the remote end hung up unexpectedly": "Application Error: Git",
             "unable to access 'https://gitlab.devtools.intel.com": "Connectivity Error: Git",
@@ -272,11 +275,8 @@
             "unknown revision or path not in the working tree": "Configuration Error: Git",
             "clone of 'https://github.com": "Connectivity Error: Git",
             "unable to access 'https://github": "Connectivity Error: Git",
-            "fatal: unable to access 'https://git": "Connectivity Error: Git",
-            "fatal: couldn't find remote ref": "Connectivity Error: Git",
             ".git not found": "Configuration Error: Git",
             "fatal: cannot obtain manifest https://git": "Configuration Error: Git",
-            "error: cannot fetch": "Connectivity Error: Git",
             "fatal: could not create work tree": "Connectivity Error: Git",
             "fatal: failed to unpack tree object": "Configuration Error: Git",
             "fatal: tag .*. ": "Configuration Error: Git",
@@ -423,6 +423,7 @@
             "DOCKER CONTAINER RELATED ERROR": "DOCKER CONTAINER Related Error",
             
             "error: no such container": "Application Error: Container",
+            "remote call to jnlp4-connect connection": "Application Error: Container",
 
             "GENERIC APPLICATION ERROR": "Generic Application Error",
             

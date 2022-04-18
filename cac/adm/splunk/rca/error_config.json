@@ -267,7 +267,6 @@
             "error: failed to push some refs to": "Connectivity Error: Git",
             "failed to fetch from https://gitlab": "Connectivity Error: Git",
             "giterror": "Connectivity Error: Git",
-            "error fetching remote": "Connectivity Error: Git",
             "an optional update for edkrepo is available and can be installed using: edkrepo update": "Configuration Error: Git",
             "fatal: unable to read tree": "Configuration Error: Git",
             "fatal: reference is not a tree": "Configuration Error: Git",

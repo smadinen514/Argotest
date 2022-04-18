@@ -252,7 +252,7 @@
             "fatal: couldn't find remote ref": "Developer Error: Compilation",
             "could not read from remote repository": "Developer Error: Compilation",
             "error: cannot fetch": "Developer Error: Compilation",
-	    "couldn't find any revision to build": "Developer Error: Configuration",
+            "couldn't find any revision to build": "Developer Error: Configuration",
 
             "GIT RELATED ERROR": "Git Related Error",
             

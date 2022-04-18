@@ -255,7 +255,6 @@
             "GIT RELATED ERROR": "Git Related Error",
             
             "gitlab error": "Application Error: Git",
-            "not a git repository": "Connectivity Error: Git",
             "the remote end hung up unexpectedly": "Application Error: Git",
             "unable to access 'https://gitlab.devtools.intel.com": "Connectivity Error: Git",
             "gitlab is not responding": "Connectivity Error: Git",

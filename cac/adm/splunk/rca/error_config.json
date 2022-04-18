@@ -422,7 +422,7 @@
             "DOCKER CONTAINER RELATED ERROR": "DOCKER CONTAINER Related Error",
             
             "error: no such container": "Application Error: Container",
-            "remote call to jnlp4-connect connection": "Application Error: Container",
+            "remote call to": "Application Error: Container",
 
             "GENERIC APPLICATION ERROR": "Generic Application Error",
             

@@ -564,7 +564,8 @@
             "klocwork table does not exists",
             "no names found, cannot describe anything",
             "embedconflict",
-            "kwbuildproject"
+            "kwbuildproject",
+            "openssl ssl_read: no error information"
         ]
     }
 }

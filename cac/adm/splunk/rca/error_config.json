@@ -273,7 +273,7 @@
             "fatal: reference is not a tree": "Configuration Error: Git",
             "fatal: could not parse object": "Configuration Error: Git",
             "unknown revision or path not in the working tree": "Configuration Error: Git",
-            "unable to access 'https://github": "Connectivity Error: Git",
+            "unable to access 'https://github.com/intel": "Connectivity Error: Git",
             ".git not found": "Configuration Error: Git",
             "fatal: cannot obtain manifest https://git": "Configuration Error: Git",
             "fatal: could not create work tree": "Connectivity Error: Git",

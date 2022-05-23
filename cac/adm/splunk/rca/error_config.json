@@ -253,6 +253,8 @@
             "could not read from remote repository": "Developer Error: Compilation",
             "error: cannot fetch": "Developer Error: Compilation",
             "couldn't find any revision to build": "Developer Error: Configuration",
+            "fatal: cannot obtain manifest https://git": "Developer Error: Configuration",
+            "unknown revision or path not in the working tree": "Developer Error: Configuration",
 
             "GIT RELATED ERROR": "Git Related Error",
             
@@ -272,10 +274,8 @@
             "fatal: unable to read tree": "Configuration Error: Git",
             "fatal: reference is not a tree": "Configuration Error: Git",
             "fatal: could not parse object": "Configuration Error: Git",
-            "unknown revision or path not in the working tree": "Configuration Error: Git",
             "unable to access 'https://github.com/intel": "Connectivity Error: Git",
             ".git not found": "Configuration Error: Git",
-            "fatal: cannot obtain manifest https://git": "Configuration Error: Git",
             "fatal: could not create work tree": "Connectivity Error: Git",
             "fatal: failed to unpack tree object": "Configuration Error: Git",
             "fatal: tag .*. ": "Configuration Error: Git",

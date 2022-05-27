@@ -278,7 +278,6 @@
             "fatal: could not create work tree": "Connectivity Error: Git",
             "fatal: failed to unpack tree object": "Configuration Error: Git",
             "fatal: tag .*. ": "Configuration Error: Git",
-            "git clone .*. failed to complete successfully with the following errors": "Connectivity Error: Git",
             "fatal: the remote end hung up upon initial contact": "Connectivity Error: Git",
             "fatal: cannot get .*. ": "Connectivity Error: Git",
 
@@ -467,6 +466,7 @@
             "sudo: /usr/bin/sudo": "System Error",
             "error: missing workspace .*. on": "System Error",
             "could not insert module": "System Error",
+            "git clone .*. failed to complete successfully with the following errors": "System Error",
             
             "VISUAL STUDIO ERROR": "Visual Studio Error",
             

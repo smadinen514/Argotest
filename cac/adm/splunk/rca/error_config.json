@@ -274,7 +274,6 @@
             "fatal: unable to read tree": "Configuration Error: Git",
             "fatal: reference is not a tree": "Configuration Error: Git",
             "fatal: could not parse object": "Configuration Error: Git",
-            "unable to access 'https://github.com/intel": "Connectivity Error: Git",
             ".git not found": "Configuration Error: Git",
             "fatal: could not create work tree": "Connectivity Error: Git",
             "fatal: failed to unpack tree object": "Configuration Error: Git",
@@ -421,7 +420,9 @@
             "DOCKER CONTAINER RELATED ERROR": "DOCKER CONTAINER Related Error",
             
             "error: no such container": "Application Error: Container",
+            
             "remote call to": "Application Error: Proxy",
+            "received http code 302 from proxy after connect": "Application Error: Proxy",
 
             "GENERIC APPLICATION ERROR": "Generic Application Error",
             

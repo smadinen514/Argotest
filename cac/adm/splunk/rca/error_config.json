@@ -420,7 +420,7 @@
             
             "error: no such container": "Application Error: Container",
             
-            "remote call to": "Application Error: Proxy",
+            "remote call to": "Application Error: Node",
             "received http code 302 from proxy after connect": "Application Error: Proxy",
 
             "GENERIC APPLICATION ERROR": "Generic Application Error",

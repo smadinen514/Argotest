@@ -251,7 +251,7 @@
             "ninja failed with: exit status 1": "Developer Error: Compilation",
             "fatal: couldn't find remote ref": "Developer Error: Configuration",
             "could not read from remote repository": "Developer Error: Configuration",
-            "error: cannot fetch": "Developer Error: Compilation",
+            "error: cannot fetch": "Developer Error: Configuration",
             "couldn't find any revision to build": "Developer Error: Configuration",
             "fatal: cannot obtain manifest https://git": "Developer Error: Configuration",
             "unknown revision or path not in the working tree": "Developer Error: Configuration",

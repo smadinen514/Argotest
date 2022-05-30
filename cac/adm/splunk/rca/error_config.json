@@ -279,6 +279,7 @@
             "fatal: tag .*. ": "Configuration Error: Git",
             "fatal: the remote end hung up upon initial contact": "Connectivity Error: Git",
             "fatal: cannot get .*. ": "Connectivity Error: Git",
+            "fatal: index-pack failed": "Application Error: Git",
 
             "ARTIFACTORY RELATED ERROR": "Artifactory Related Error",
             
@@ -516,7 +517,6 @@
             "stderr: remote:",
             "git did not send all necessary objects",
             "fatal: early eof",
-            "fatal: index-pack failed",
             "fatal: expected flush after ref listing",
             "fatal: protocol error: bad pack header",
             "unable to get credential",

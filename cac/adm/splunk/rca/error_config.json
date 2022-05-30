@@ -259,7 +259,6 @@
             "GIT RELATED ERROR": "Git Related Error",
             
             "gitlab error": "Application Error: Git",
-            "the remote end hung up unexpectedly": "Application Error: Git",
             "unable to access 'https://gitlab.devtools.intel.com": "Connectivity Error: Git",
             "gitlab is not responding": "Connectivity Error: Git",
             "authentication failed for 'https://gitlab": "Connectivity Error: Git",
@@ -421,6 +420,7 @@
             "error: no such container": "Application Error: Container",
             
             "remote call to": "Application Error: Node",
+            "the remote end hung up unexpectedly": "Application Error: Node",
             "received http code 302 from proxy after connect": "Application Error: Proxy",
 
             "GENERIC APPLICATION ERROR": "Generic Application Error",

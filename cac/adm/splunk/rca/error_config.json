@@ -257,6 +257,7 @@
             "couldn't find any revision to build": "Developer Error: Configuration",
             "fatal: cannot obtain manifest https://git": "Developer Error: Configuration",
             "unknown revision or path not in the working tree": "Developer Error: Configuration",
+            "fatal: could not create work tree": "Developer Error: Configuration",
 
             "GIT RELATED ERROR": "Git Related Error",
             
@@ -276,7 +277,6 @@
             "fatal: reference is not a tree": "Configuration Error: Git",
             "fatal: could not parse object": "Configuration Error: Git",
             ".git not found": "Configuration Error: Git",
-            "fatal: could not create work tree": "Connectivity Error: Git",
             "fatal: failed to unpack tree object": "Configuration Error: Git",
             "fatal: tag .*. ": "Configuration Error: Git",
             "fatal: the remote end hung up upon initial contact": "Connectivity Error: Git",

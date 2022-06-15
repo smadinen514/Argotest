@@ -125,7 +125,8 @@
             "failed on a \"put\"",
             "rsync:",
             "error: no such container",
-            "suppressed: hudson.remoting"
+            "suppressed: hudson.remoting",
+            "unable to delete"
         ],
 
         "error_category": {

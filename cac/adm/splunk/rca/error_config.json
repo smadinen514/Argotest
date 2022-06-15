@@ -126,7 +126,8 @@
             "rsync:",
             "error: no such container",
             "suppressed: hudson.remoting",
-            "unable to delete"
+            "unable to delete",
+            "unable to remove directory"
         ],
 
         "error_category": {
@@ -462,7 +463,7 @@
             "java.io.ioexception: unable to create live filepath": "System Error",
             "java.io.ioexception: .*. exist": "System Error",
             "jenkins.util.io.compositeioexception: unable to delete": "Workspace Deletion Error",
-            "jenkins.util.io.compositeioexception: unable to remove directory": "System Error",
+            "jenkins.util.io.compositeioexception: unable to remove directory": "Workspace Deletion Error",
             "sudo: /usr/bin/sudo": "System Error",
             "error: missing workspace .*. on": "System Error",
             "could not insert module": "System Error",

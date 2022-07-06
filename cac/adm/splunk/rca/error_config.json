@@ -423,6 +423,7 @@
             "error: no such container": "Application Error: Container",
             
             "received http code 302 from proxy after connect": "Application Error: Proxy",
+            "received http code 503 from proxy after connect": "Application Error: Proxy",
 
             "GENERIC APPLICATION ERROR": "Generic Application Error",
             

@@ -342,6 +342,7 @@
             "error when executing failure post condition": "Configuration Error: Jenkins",
             "docker: error response from daemon: pull access denied": "Configuration Error: Jenkins",
             "docker: error response from daemon: unauthorized": "Configuration Error: Jenkins",
+            "docker: error response from daemon:": "Configuration Error: Jenkins",
             "util.jsontokener": "Configuration Error: Jenkins",
             "with a status code of: 401": "Configuration Error: Jenkins",
 

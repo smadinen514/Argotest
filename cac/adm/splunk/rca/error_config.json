@@ -574,7 +574,7 @@
             "file in files list",
             "not a git repository",
             "openssl ssl_read: no error information",
-            "fatal: fetch-pack: invalid index-pack output".
+            "fatal: fetch-pack: invalid index-pack output",
             "tianocore/edk2.git"
         ]
     }

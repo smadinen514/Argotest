@@ -124,6 +124,7 @@
             "error: no such container",
             "suppressed: hudson.remoting",
             "unable to delete",
+            "callsitestacktrace: remote call to",
             "unable to remove directory"
         ],
 

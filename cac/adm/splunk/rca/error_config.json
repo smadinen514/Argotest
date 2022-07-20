@@ -577,7 +577,7 @@
             "openssl ssl_read: no error information",
             "fatal: fetch-pack: invalid index-pack output",
             "tianocore/edk2.git",
-            "not our ref"
+            "not our ref",
             "openembedded"
         ]
     }

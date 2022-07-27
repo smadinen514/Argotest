@@ -125,6 +125,7 @@
             "suppressed: hudson.remoting",
             "unable to delete",
             "callsitestacktrace: remote call to",
+            "received 503",
             "unable to remove directory"
         ],
 
@@ -303,6 +304,7 @@
             "failed to deploy file. status code: 404": "Application Error: Artifactory",
             "failed to deploy file. status code: 500": "Application Error: Artifactory",
             "failed to deploy file. status code: 503": "Application Error: Artifactory",
+            "jfrog service failed. received 503": "Application Error: Artifactory",
             "caused java.io.ioexception": "Application Error: Artifactory",
             "java.io.ioexception: error downloading https://ubit-artifactory": "Application Error: Artifactory",
             "git credentials for https://ubit-artifactory": "Application Error: Artifactory",

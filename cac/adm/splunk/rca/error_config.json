@@ -283,6 +283,7 @@
             "fatal: cannot get .*. ": "Connectivity Error: Git",
             "fatal: index-pack failed": "Application Error: Git",
             "unable to access 'https://github.com/intel-innersource": "Configuration Error: Git",
+            "createprocess error=2": "Configuration Error: Git",
 
             "ARTIFACTORY RELATED ERROR": "Artifactory Related Error",
             

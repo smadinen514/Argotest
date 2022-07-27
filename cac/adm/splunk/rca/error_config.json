@@ -313,6 +313,7 @@
             "java.io.ioexception: could not create or write to file": "Connectivity Error: Artifactory",
             "java.io.ioexception: could not create nor write to file": "Connectivity Error: Artifactory",
             "java.lang.runtimeexception: javax.net.ssl.sslhandshakeexception": "Connectivity Error: Artifactory",
+            "target repository cannot be empty": "Configuration Error: Artifactory",
 
             "KLOCWORK RELATED ERROR": "Klocwork Related Error",
             

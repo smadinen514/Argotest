@@ -310,6 +310,7 @@
             "git credentials for https://ubit-artifactory": "Application Error: Artifactory",
             "error occurred while downloading http://jf": "Connectivity Error: Artifactory",
             "java.io.ioexception: could not create or write to file": "Connectivity Error: Artifactory",
+            "java.io.ioexception: could not create nor write to file": "Connectivity Error: Artifactory",
             "java.lang.runtimeexception: javax.net.ssl.sslhandshakeexception": "Connectivity Error: Artifactory",
 
             "KLOCWORK RELATED ERROR": "Klocwork Related Error",

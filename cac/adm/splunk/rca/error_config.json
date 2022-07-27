@@ -258,7 +258,8 @@
             "fatal: cannot obtain manifest https://git": "Developer Error: Configuration",
             "unknown revision or path not in the working tree": "Developer Error: Configuration",
             "fatal: could not create work tree": "Developer Error: Configuration",
-            "failed to run notepad using mouse and keyboard emulator": "Developer Error: Configuration",
+            "failed to run notepad using mouse and keyboard emulator": "Developer Error: Compilation",
+            "couldn't find a tree builder with the features you requested": "Developer Error: Compilation",
 
             "GIT RELATED ERROR": "Git Related Error",
             

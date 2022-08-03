@@ -586,7 +586,8 @@
             "tianocore/edk2.git",
             "not our ref",
             "openembedded",
-            "failed to unpack tree object"
+            "failed to unpack tree object",
+            "bad line length character"
         ]
     }
 }

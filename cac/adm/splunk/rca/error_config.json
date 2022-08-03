@@ -279,7 +279,6 @@
             "fatal: reference is not a tree": "Configuration Error: Git",
             "fatal: could not parse object": "Configuration Error: Git",
             ".git not found": "Configuration Error: Git",
-            "fatal: failed to unpack tree object": "Configuration Error: Git",
             "fatal: tag .*. ": "Configuration Error: Git",
             "fatal: the remote end hung up upon initial contact": "Connectivity Error: Git",
             "fatal: cannot get .*. ": "Connectivity Error: Git",
@@ -587,7 +586,7 @@
             "tianocore/edk2.git",
             "not our ref",
             "openembedded",
-            "failed to unpack tree object head"
+            "failed to unpack tree object"
         ]
     }
 }

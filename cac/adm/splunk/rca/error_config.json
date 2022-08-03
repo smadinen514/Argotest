@@ -587,7 +587,8 @@
             "not our ref",
             "openembedded",
             "failed to unpack tree object",
-            "bad line length character"
+            "bad line length character",
+            "unpack-objects failed"
         ]
     }
 }

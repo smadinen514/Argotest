@@ -286,6 +286,7 @@
             "fatal: index-pack failed": "Application Error: Git",
             "unable to access 'https://github.com/intel-innersource": "Configuration Error: Git",
             "createprocess error=2": "Configuration Error: Git",
+            "fatal: unable to fetch in submodule path": "Configuration Error: Git",
 
             "ARTIFACTORY RELATED ERROR": "Artifactory Related Error",
             

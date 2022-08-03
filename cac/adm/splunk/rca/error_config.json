@@ -586,7 +586,8 @@
             "fatal: fetch-pack: invalid index-pack output",
             "tianocore/edk2.git",
             "not our ref",
-            "openembedded"
+            "openembedded",
+            "failed to unpack tree object head"
         ]
     }
 }

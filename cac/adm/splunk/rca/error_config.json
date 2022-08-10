@@ -378,6 +378,7 @@
             "\\[bdba\\] \\[error\\] \\[bdba\\] \\[error\\] httperror: 503": "Application Error: BDBA",
             "\\[bdba\\] \\[error\\] \\[bdba\\] \\[error\\] httperror: 504": "Application Error: BDBA",
             "\\[bdba\\] \\[error\\] \\[bdba\\] \\[error\\] httperror: 415 - Entity body in unsupported format": "Application Error: BDBA",
+            "\\[bdba\\] \\[error\\] source path/file is not exist": "Configuration Error: BDBA",
             
             "EMAIL RELATED ERROR": "EMAIL Error",
             

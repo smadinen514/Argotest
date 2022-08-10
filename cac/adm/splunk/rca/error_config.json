@@ -319,6 +319,7 @@
             "java.io.ioexception: could not create nor write to file": "Connectivity Error: Artifactory",
             "java.lang.runtimeexception: javax.net.ssl.sslhandshakeexception": "Connectivity Error: Artifactory",
             "target repository cannot be empty": "Configuration Error: Artifactory",
+            "jfrog service failed": "Connectivity Error: Artifactory",
 
             "KLOCWORK RELATED ERROR": "Klocwork Related Error",
             
@@ -382,6 +383,7 @@
             "\\[bdba\\] \\[error\\] \\[bdba\\] \\[error\\] httperror: 415 - Entity body in unsupported format": "Application Error: BDBA",
             "\\[bdba\\] \\[error\\] source path/file is not exist": "Configuration Error: BDBA",
             "\\[bdba\\] \\[error\\] urlerror: \\[errno 32\\] broken pipe": "Application Error: BDBA",
+            "\\[bdba\\] \\[error\\] urlerror": "Application Error: BDBA",
             
             "EMAIL RELATED ERROR": "EMAIL Error",
             
@@ -486,6 +488,7 @@
             "the remote end hung up unexpectedly": "System Error",
             "git clone .*. failed to complete successfully with the following errors": "System Error",
             "java.io.ioexception: input/output error": "System Error",
+            "fatal: out of memory": "System Error",
             
             "VISUAL STUDIO ERROR": "Visual Studio Error",
             

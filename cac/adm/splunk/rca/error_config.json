@@ -272,7 +272,7 @@
             "remote: unauthorized":"Configuration Error: Git",
             "fatal: repository": "Connectivity Error: Git",
             "fatal: error tunnel connection failed": "Connectivity Error: Git",
-            "cloning the git-repo": "Connectivity Error: Git",
+            "cloning the git-repo": "Configuration Error: Git",
             "error: failed to push some refs to": "Connectivity Error: Git",
             "failed to fetch from https://gitlab": "Connectivity Error: Git",
             "giterror": "Connectivity Error: Git",

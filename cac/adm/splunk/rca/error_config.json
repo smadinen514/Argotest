@@ -262,6 +262,8 @@
             "couldn't find a tree builder with the features you requested": "Developer Error: Compilation",
             "target .*. does not exist": "Developer Error: Compilation",
             ".*. does not exist. try to compile from sources": "Developer Error: Compilation",
+            "fatal: cannot get https://gerrit": "Developer Error: Configuration",
+            "fatal: double check your --repo-rev setting": "Developer Error: Configuration",
 
             "GIT RELATED ERROR": "Git Related Error",
             

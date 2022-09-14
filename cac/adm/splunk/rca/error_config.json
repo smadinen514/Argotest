@@ -602,7 +602,11 @@
             "unpack-objects failed",
             "fatal: error reading section header",
             "fatal: unexpected wanted-ref",
-            "smudge filter lfs failed"
+            "smudge filter lfs failed",
+            "fatal: clone of 'https://github.com/krb5",
+            "fatal: unable to access 'https://github.com/pyca",
+            "fatal: clone of 'https://github.com/pyca",
+            "fatal: unable to access 'https://github.com/krb5"
         ]
     }
 }

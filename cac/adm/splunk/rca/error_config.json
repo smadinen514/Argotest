@@ -490,6 +490,7 @@
             "remote call to": "System Error",
             "the remote end hung up unexpectedly": "System Error",
             "git clone .*. failed to complete successfully with the following errors": "System Error",
+            "failure in a Windows system call: The password for this account has expired": "System Error: Container",
             "java.io.ioexception: input/output error": "System Error",
             "fatal: out of memory": "System Error",
             "fatal: remote error: resource_exhausted": "System Error",

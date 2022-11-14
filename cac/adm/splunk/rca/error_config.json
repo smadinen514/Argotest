@@ -255,7 +255,6 @@
             "could not read from remote repository": "Developer Error: Configuration",
             "error: cannot fetch": "Developer Error: Configuration",
             "couldn't find any revision to build": "Developer Error: Configuration",
-            "fatal: cannot obtain manifest https://git": "Developer Error: Configuration",
             "unknown revision or path not in the working tree": "Developer Error: Configuration",
             "fatal: could not create work tree": "Developer Error: Configuration",
             "failed to run notepad using mouse and keyboard emulator": "Developer Error: Compilation",
@@ -267,7 +266,7 @@
 
             "GIT RELATED ERROR": "Git Related Error",
             
-            "gitlab error": "Application Error: Git",
+            "fatal: cannot obtain manifest https://git": "Connectivity Error: Git",             
             "unable to access 'https://gitlab.devtools.intel.com": "Connectivity Error: Git",
             "gitlab is not responding": "Connectivity Error: Git",
             "authentication failed for 'https://gitlab": "Connectivity Error: Git",

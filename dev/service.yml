@@ -7,6 +7,6 @@ spec:
     app: nginx-test
   type: NodePort
   ports:
-    - port: 8080
-      targetPort: 80
-      nodePort: 30038
+  - port: 8080
+    targetPort: 80
+    nodePort: 30038

@@ -444,6 +444,11 @@
 
             "GENERIC APPLICATION ERROR": "Generic Application Error",
             
+            "\\[error\\] the program listening on": "Application Error",
+            "401: authentication failed": "Application Error",
+            "error in running batch analyze command": "Application Error",
+            "analysis interrupted": "Application Error",
+            "the requested url returned error: 403": "Application Error",
             "nameerror:": "Application Error",
             "typeerror:": "Application Error",
             "attributeerror: ": "Application Error",

@@ -263,6 +263,7 @@
             ".*. does not exist. try to compile from sources": "Developer Error: Compilation",
             "fatal: cannot get https://gerrit": "Developer Error: Configuration",
             "fatal: double check your --repo-rev setting": "Developer Error: Configuration",
+            "text data": "Developer Error: Compilation",
 
             "GIT RELATED ERROR": "Git Related Error",
             
@@ -289,6 +290,8 @@
             "unable to access 'https://github.com/intel-innersource": "Configuration Error: Git",
             "createprocess error=2": "Configuration Error: Git",
             "fatal: unable to fetch in submodule path": "Configuration Error: Git",
+            "known hosts file": "Configuration Error: Git",
+            "git host key verification configuration' and configure host key verification": "Configuration Error: Git",
 
             "ARTIFACTORY RELATED ERROR": "Artifactory Related Error",
             
@@ -348,6 +351,13 @@
             "unable to connect to the klocwork server": "Application Error: Klocwork",
             "[klocwork] [error] build spec file does not exists": "Configuration Error: Klocwork",
 
+            "COVERITY RELATED ERROR": "Coverity Related Error",
+
+            "error in running batch analyze command": "Connectivity Error: Coverity",
+            "the program listening on https://coverity": "Connectivity Error: Coverity",
+            "http get failed: https://coverity": "Connectivity Error: Coverity",
+            "the system cannot find the path specified": "Configuration Error",
+            
             "JENKINS RELATED ERROR": "Jenkins Related Error",
             
             "groovy.lang.missingpropertyexception": "Configuration Error: Jenkins",
@@ -451,6 +461,9 @@
             "configuration error": "Application Error",
             "server error": "Application Error",
             "fatal: error parsing manifest": "Configuration Error",
+            "failure when receiving data from the peer": "Application Error",
+            "failed because the file does not exist at the following path": "Configuration Error",
+            "device tree path does not exist": "Application Error",
 
             "GENERIC CONNECTIVITY ERROR": "Generic Connectivity Error",
             
@@ -493,12 +506,15 @@
             "java.io.ioexception: input/output error": "System Error",
             "fatal: out of memory": "System Error",
             "fatal: remote error: resource_exhausted": "System Error",
+            "fatal: expected wanted-ref": "System Error",
             
             "VISUAL STUDIO ERROR": "Visual Studio Error",
             
             "the license for visual studio expires": "Configuration Error: Visual Studio",
 
             "VIRUS SCAN ERROR": "Virus Scan Error",
+
+            "failed to initialize avengine": "Virus Scan Error",
             
             "file \"vscanner.py\", line": "Configuration Error: Virus Scan",
             

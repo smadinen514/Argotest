@@ -264,6 +264,7 @@
             "fatal: cannot get https://gerrit": "Developer Error: Configuration",
             "fatal: double check your --repo-rev setting": "Developer Error: Configuration",
             "text data": "Developer Error: Compilation",
+            "fatal: resolve operation not in progress, we are not resuming": "Developer Error: Compilation",
 
             "GIT RELATED ERROR": "Git Related Error",
             
@@ -292,6 +293,7 @@
             "fatal: unable to fetch in submodule path": "Configuration Error: Git",
             "known hosts file": "Configuration Error: Git",
             "git host key verification configuration' and configure host key verification": "Configuration Error: Git",
+            "fatal: authentication failed for 'https://github.com": "Configuration Error: Git",
 
             "ARTIFACTORY RELATED ERROR": "Artifactory Related Error",
             

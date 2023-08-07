@@ -265,6 +265,13 @@
             "fatal: double check your --repo-rev setting": "Developer Error: Configuration",
             "text data": "Developer Error: Compilation",
             "fatal: resolve operation not in progress, we are not resuming": "Developer Error: Compilation",
+            "test cases": "Developer Error: Compilation",
+            "mesonexception": "Developer Error: Compilation",
+            "mesonbuild.mesonlib.universal.mesonexception": "Developer Error: Compilation",
+            "couldn't find static pad template": "Developer Error: Compilation",
+            "rsync: \\[sender\\] read errors mapping": "Developer Error: Compilation",
+            "type not recognized": "Developer Error: Compilation",
+            "b'error: the process": "Developer Error: Compilation",
 
             "GIT RELATED ERROR": "Git Related Error",
             
@@ -294,6 +301,10 @@
             "known hosts file": "Configuration Error: Git",
             "git host key verification configuration' and configure host key verification": "Configuration Error: Git",
             "fatal: authentication failed for 'https://github.com": "Configuration Error: Git",
+            "fatal: unable to access 'https://github.com": "Connectivity Error: Git",
+            "fatal: unable to access 'https://git.yoctoproject": "Connectivity Error: Git",
+            "fatal: invalid gitfile format": "Configuration Error: Git",
+            "the git command: git": "Configuration Error: Git",
 
             "ARTIFACTORY RELATED ERROR": "Artifactory Related Error",
             
@@ -326,6 +337,8 @@
             "java.lang.runtimeexception: javax.net.ssl.sslhandshakeexception": "Connectivity Error: Artifactory",
             "target repository cannot be empty": "Configuration Error: Artifactory",
             "jfrog service failed": "Connectivity Error: Artifactory",
+            "failed to deploy artifact": "Connectivity Error: Artifactory",
+            "failed to upload": "Application Error: Artifactory",
 
             "KLOCWORK RELATED ERROR": "Klocwork Related Error",
             
@@ -358,7 +371,7 @@
             "error in running batch analyze command": "Connectivity Error: Coverity",
             "the program listening on https://coverity": "Connectivity Error: Coverity",
             "http get failed: https://coverity": "Connectivity Error: Coverity",
-            "the system cannot find the path specified": "Configuration Error",
+            "no builds were found for specified configuration": "Configuration Error: Coverity",
             
             "JENKINS RELATED ERROR": "Jenkins Related Error",
             
@@ -370,6 +383,9 @@
             "docker: error response from daemon:": "Configuration Error: Jenkins",
             "util.jsontokener": "Configuration Error: Jenkins",
             "with a status code of: 401": "Configuration Error: Jenkins",
+            "hudson.remoting.proxyexception": "Connectivity Error",
+            "failed to get domain": "Connectivity Error",
+            "unable to write request to remote: broken pipe connectivity": "Connectivity Error: Jenkins",
 
             "BDBA RELATED ERROR": "BDBA Related Error",
             
@@ -479,6 +495,7 @@
             "internal_server_error": "Connectivity Error",
             "communications link failure": "Connectivity Error",
             "http response status 500": "Connectivity Error",
+            "proxy connect aborted due to timeout": "Connectivity Error",
 
             "GENERIC SYSTEM ERROR": "Generic System Error",
             
@@ -509,6 +526,10 @@
             "fatal: out of memory": "System Error",
             "fatal: remote error: resource_exhausted": "System Error",
             "fatal: expected wanted-ref": "System Error",
+            "does not exist -- can't clean it": "System Error",
+            "detected dubious ownership in repository": "System Error",
+            "java.io.filenotfoundexception": "System Error",
+            "the system cannot find the path specified": "Configuration Error",
             
             "VISUAL STUDIO ERROR": "Visual Studio Error",
             
